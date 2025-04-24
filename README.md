@@ -21,11 +21,14 @@ Grazie a tutto lo [staff](https://themiraclegdr.com/staff/) di The Miracle e tut
 È possibile convertire facilmente i files in Markdown in un sito web statico, con funzioni di ricerca, 
 utilizzando [jupyter-book](https://jupyterbook.org/en/stable/intro.html), grazie ai due files `_config.yml` e `_toc.yml`.
 
-Il sito, precompilato, è disponibile online: . Per crearlo autonomamente, eseguire le seguenti istruzioni (testate su MacOSX):
+Il sito, precompilato, è disponibile online: . 
+
+Per crearlo autonomamente, eseguire le seguenti istruzioni (testate su MacOSX):
 1. Avere Python 3 installato nel sistema.
 2. Clonare il git, creare un virtual environment e scaricare le librerie necessarie:
 ```
-git clone
+git clone https://github.com/jacklake-tm/ardania-md
+cd ardania-md
 python3 -m venv .venv
 source .venv/bin/activate
 pip install jupyter-book
