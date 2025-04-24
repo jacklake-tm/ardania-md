@@ -1,5 +1,3 @@
 _build/
 .venv/
 .DS_Store
-!_build/latex/ardania.pdf
-!_build/html/
