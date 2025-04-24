@@ -1,0 +1,17 @@
+# Terathan
+
+I Terathan sono creature aracnoidi intelligenti. Sono una razza di ragni evoluta ma non hanno sviluppato nessun tipo di arti o manufatti, ne nessun tipo di edilizia. Infatti tutto ció che potrebbe servigli se lo costruiscono, come le altre famiglie aracnoidi, con la loro tela. Queste creature non hanno una forma di linguaggio vocale, ma telepatica. La loro bocca gli serve solo per mangiare le loro vittime e per la produzione della loro saliva che utilizzano per tessere le loro tele. Le loro ghiandole salivari secernano una sostanza velenosissima per qualsiasi altra creatura differente dalla loro razza. Un veleno che i Terathani fanno conoscere volentieri ai loro ospiti, che spesso e volentieri trasformano nella loro cena. Non si conosce molto sulla loro cultura, ma si ritiene che siano i fedeli servitori della dea elfica Kelthra e di antiche divinità aracnoformi primitive umane. La loro società è di stampo Matriarcale. La regina è il fulcro di ogni attività dei Terathani.
+
+Quando cacciano le loro vittime, queste sono catturate come cibo per la loro regina. Generalmente questa razza non cerca il contatto con le altre razze intelligenti di Ardania, prediligono starsene nella loro valle isolata dal resto del mondo, dove hanno tutto quello che gli serve, creature da cacciare e mangiare. La loro valle è celata all’interno della catena montuosa centrale delle Terre Selvagge. Non escono mai dalla loro valle, neanche per cacciare, in quanto sono le loro stesse vittime ad andare da loro. Infatti sia gli uomini che gli elfi, ma anche gli stessi orchi che vivono all’esterno della valle, si addentrano in essa nella speranza di riuscire a sopraffare qualche Terathan per ottenere la loro corazza, utilizzabile per creare resistenti armature leggere di elevato valore pecuniario. Oltre che nella loro valle, i Terathani li si trovano a difesa dell’elfico tempio di Kelthra, e fra le rovine di un antico tempio umano di qualche antica divinità dei Ragni. Superfluo dire che chiunque si avvicini a quelle costruzioni sarà ben accolto da loro, addirittura invitato a cena da loro…come portata principale del banchetto.
+
+## Terathan Matriarca
+Sono le cape delle loro famiglie. Si ritiene con molta probabilità che la matriarca piu forte di tutte le famiglie sia la Regina della loro valle. Sono fra le creature piu forti di Ardania. Infatti le Matriarche sono fortissime combattenti, avvantaggiate già dal loro potente veleno. Inoltre sono capaci di domare a loro piacimento il flux, rendendole delle assassine perfette, quasi senza rivali.
+
+## Terathan Vendicatrice
+Sono guerriere a difesa della loro Matriarca a cui un giorno succederanno. Oltre ad essere fortisse guerriere sono capaci di domare i circoli minori del flux.
+
+## Terathan Guerriera
+Sono le cacciatrici di questa razza. Sono loro che difendono la loro valle dagli invasori. Sono ottime combattenti, e le fra le più forti e valorose di loro, la Matriarca sceglie le proprie Vendicatrici.
+
+## Terathan Drone
+Sono i maschi della razza. Il loro compito è quello di procurare il cibo alle femmine e di fecondare la Matriarca. I maschi, o drone, sono gli unici della loro razza a non secernere veleno dalle loro ghiandole, rendendoli così creature alquanto deboli. Si narra che essi vengano brutalmente uccisi dalla Matriarca dopo essere stata fecondata da loro, affinché le loro carni siano il cibo per le nasciture guerriere.

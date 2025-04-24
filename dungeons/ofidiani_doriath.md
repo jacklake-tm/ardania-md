@@ -1,0 +1,17 @@
+
+# Ofidiani Doriath
+
+>Un monito per chi non porge omaggio alle venerabili spoglie che qui giacciono.
+Sia colui che si macchia d’insolenza, condannato a vagare in un oceano di fuoco, finché le sue carni non si staccheranno dalle ossa e le sue ossa non diverranno polvere, sparsa nel vento e nella sabbia.”
+
+Questo è l’ultimo cartiglio leggibile dei molti che si trovano sulle pareti della tomba. Purtroppo, il senso della maggior parte di essi è andato perduto… e gli ofidiani non sono esattamente dei buoni restauratori. O perlomeno, non lo sono ad oggi.
+
+Ci sono diverse teorie in merito alle ragioni per cui questa razza abiti il luogo: la più ardita è quella che vorrebbe questa enorme tomba e le sue molte stanze, come avente una funzione duplice, sia di sepolcro eroico che di culto. Pare infatti, che nei reconditi spazi della struttura, prenda seggio una matriarca dotata di compiti specifici e specifiche capacità legate alle fiamme e ad una fiamma sacra che sgorga direttamente dalle profondità della terra. Tenendo a mente questo, alcuni studiosi concordano nel sostenere che, se si volesse rintracciare un luogo di diffusione di tutta la razza ofidiana, è proprio in questo sepolcro che si dovrebbero cercare i suoi primi vagiti, considerando che l’elemento di adorazione del fuoco è, generalmente, comune a culture poco civilizzate e con un basso livello tecnologico e sociale, quali sono gli ofidiani.
+
+D’altro canto però, altri studiosi contestano la teoria, puntualizzando che lo sviluppato uso delle arti arcane e la struttura piramidale della società ofidiana, non possono essere liquidate con l’uso di un comparatismo tecnologico così spicciolo: applicando un modello così rigido, si arriverebbe a dire che gli Djaredin o gli Juka, poiché tecnologicamente più avanzati, sono anche culturalmente più avanzati rispetto le altre razze di Ardania. Mentre invece sono una rarità, immersa in un contesto tecnologico mediamente meno complesso.
+
+Tali studiosi, pur riconoscendo le due funzioni di sepolcro eroico e luogo di culto, asseriscono invece che la seconda funzione prevalga la prima, ovvero che per cause storiche a noi non note, il sepolcro possegga ad oggi una specifica collocazione nel sistema religioso ofidiano e che la fiamma sacra ivi contenuta ed i riti officiati dalla sua matriarca, posseggano un valore di equivalenza o di complemento a quelli operati altrove, ma che questa tradizione sia tardiva rispetto alle fasi primordiali della società ofidiana.
+
+C’è una terza teoria, meno accreditata ma comunque da conoscere ai fini di questi studi… trattasi della già citata “Tesi dell’Idra”, che ci indica, a fronte di alcuni ritrovamenti archeologici, la possibilità per cui gli ofidiani non provengano tutti dallo stesso luogo generativo, ma si siano sviluppati e moltiplicati in contemporanea, in molti luoghi diversi.
+
+Ogni ceppo ofidiano, è detto “testa” dai sostenitori della tesi, mentre l’intera razza viene indicata come “corpo” o “Idra”. Dunque ogni testa, sebbene con fortissime similarità tra esse, avrebbe sviluppato autonomamente le proprie specificità di culto e la propria società… e solo in un momento successivo, queste sarebbero confluite nell’articolata architettura sociale e culturale che oggi conosciamo.

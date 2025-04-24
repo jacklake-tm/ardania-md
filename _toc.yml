@@ -1,0 +1,147 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: README.md
+options:  # The options key will be applied to all chapters, but not sub-sections
+  numbered: True
+chapters:
+- file: CHAPTER:geografia.md
+  sections:
+    - file: geografia/continente_umano.md
+    - file: geografia/continente_elfico.md
+    - file: geografia/terre_del_nord.md
+    - file: geografia/terre_selvagge.md
+    - file: geografia/sottosuolo.md
+    - file: geografia/ankor_drek.md
+    - file: geografia/generalita.md
+    - file: geografia/mappa.md
+- file: CHAPTER:storia-e-razze.md
+  sections:
+    - file: storia/umani.md
+      sections:
+        - file: storia/umani/descrizione_generale.md
+        - file: storia/umani/storia_reame_umano.md
+        - file: storia/umani/nordici.md
+        - file: storia/umani/tremecciani.md
+        - file: storia/umani/qwaylar.md
+        - file: storia/umani/popoli_minori.md
+    - file: storia/elfi.md
+      sections:
+        - file: storia/elfi/descrizione_generale.md
+        - file: storia/elfi/storia_elfica.md
+        - file: storia/elfi/approfondimenti.md
+        - file: storia/elfi/magia.md
+        - file: storia/elfi/quenya.md
+        - file: storia/elfi/sindar.md
+        - file: storia/elfi/teleri.md
+    - file: storia/mezzelfi.md
+      sections:
+        - file: storia/mezzelfi/descrizione_generale.md
+        - file: storia/mezzelfi/approfondimenti.md
+        - file: storia/mezzelfi/leggende.md
+    - file: storia/nani.md
+      sections:
+        - file: storia/nani/descrizione_generale.md
+        - file: storia/nani/storia_nanica.md
+        - file: storia/nani/approfondimenti.md
+        - file: storia/nani/magia.md
+    - file: storia/generalita.md
+    - file: storia/misteri.md
+      sections:
+        - file: storia/misteri/cosmologia.md
+        - file: storia/misteri/geografia.md
+        - file: storia/misteri/calendario.md
+        - file: storia/misteri/molti_luoghi.md
+        - file: storia/misteri/punti_salienti_storia_antica.md
+    - file: storia/recent_history.md
+      sections:
+        - file: storia/ultimi_anni/266.md
+        - file: storia/ultimi_anni/267.md
+        - file: storia/ultimi_anni/cometa.md
+        - file: storia/ultimi_anni/268.md
+        - file: storia/ultimi_anni/269.md
+        - file: storia/ultimi_anni/270.md
+        - file: storia/ultimi_anni/271.md
+        - file: storia/ultimi_anni/272.md
+        - file: storia/ultimi_anni/273.md
+        - file: storia/ultimi_anni/274.md
+        - file: storia/ultimi_anni/275.md
+        - file: storia/ultimi_anni/276.md
+        - file: storia/ultimi_anni/277.md
+        - file: storia/ultimi_anni/278.md
+        - file: storia/ultimi_anni/279.md
+        - file: storia/ultimi_anni/280.md
+        - file: storia/ultimi_anni/281.md
+        - file: storia/ultimi_anni/282.md
+        - file: storia/ultimi_anni/283.md
+- file: CHAPTER:divinita.md
+  sections:
+    - file: divinita/madre.md
+    - file: divinita/umani.md
+      sections:
+        - file: divinita/umani/cosmogonia.md
+        - file: divinita/umani/cosmogonia_nordica.md
+        - file: divinita/umani/cosmogonia_tremec.md
+        - file: divinita/umani/crom.md
+        - file: divinita/umani/vashnaar.md
+        - file: divinita/umani/althea.md
+        - file: divinita/umani/aengus.md
+        - file: divinita/umani/danu.md
+        - file: divinita/umani/oghmar.md
+        - file: divinita/umani/awen.md
+        - file: divinita/umani/yggr.md
+        - file: divinita/umani/hejldam.md
+        - file: divinita/umani/akkron.md
+        - file: divinita/umani/lostris.md
+        - file: divinita/umani/mawu.md
+        - file: divinita/umani/altri_elementi.md
+    - file: divinita/elfi.md
+      sections:
+        - file: divinita/elfi/cosmogonia.md
+        - file: divinita/elfi/suldanas.md
+        - file: divinita/elfi/beltaine.md
+        - file: divinita/elfi/earlann.md
+        - file: divinita/elfi/morrigan.md
+        - file: divinita/elfi/luugh.md
+        - file: divinita/elfi/kelthra.md
+        - file: divinita/elfi/altre_divinita.md
+    - file: divinita/nani.md
+      sections:
+        - file: divinita/nani/korg.md
+        - file: divinita/nani/berzale.md
+        - file: divinita/nani/dera.md
+        - file: divinita/nani/culto_morti.md
+- file: CHAPTER:bestiario.md
+  sections:
+    - file: bestiario/Bestie_Esotiche.md
+    - file: bestiario/Elementali.md
+    - file: bestiario/Gazer.md
+    - file: bestiario/LICANTROPI.md
+    - file: bestiario/ORCHI.md
+    - file: bestiario/Demoni.md
+    - file: bestiario/Juka.md
+    - file: bestiario/GOBLIN.md
+    - file: bestiario/Giganti.md
+    - file: bestiario/NonMorti.md  
+    - file: bestiario/TERATHAN.md
+    - file: bestiario/Draghi.md
+    - file: bestiario/Galli_da_Combattimento.md
+    - file: bestiario/OPHIDIANI.md
+    - file: bestiario/VILDERON.md
+- file: CHAPTER:dungeons.md
+  sections:
+    - file: dungeons/arpie.md
+    - file: dungeons/briganti_tasso.md
+    - file: dungeons/fortezza_elenrond.md
+    - file: dungeons/goblin_arcipelago.md
+    - file: dungeons/illithid.md
+    - file: dungeons/jahr_sauri.md
+    - file: dungeons/juka.md
+    - file: dungeons/kur_nughul.md
+    - file: dungeons/ofidiani_doriath.md
+    - file: dungeons/surtur.md
+    - file: dungeons/trogloditi.md
+    - file: dungeons/uomini_topo.md
+    - file: dungeons/valle_spiritelli.md
+    - file: dungeons/zar_vagor.md
