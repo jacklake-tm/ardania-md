@@ -37,7 +37,6 @@ pip install jupyter-book
 ```
 jupyter-book build .
 ```
-Se appare qualche errore, riprovare a rieseguire il comando, dovrebbero sparire.
 Il risultato sarà disponbile nel folder `/_build/html/`.
 
 ## Conversione in PDF
