@@ -75,6 +75,17 @@ chapters:
         - file: storia/ultimi_anni/281.md
         - file: storia/ultimi_anni/282.md
         - file: storia/ultimi_anni/283.md
+    - file: storia/voci_di_ardania.md
+      sections:
+        - file: storia/voci_di_ardania/283.md
+        - file: storia/voci_di_ardania/284.md
+        - file: storia/voci_di_ardania/285.md
+        - file: storia/voci_di_ardania/286.md
+        - file: storia/voci_di_ardania/287.md
+        - file: storia/voci_di_ardania/288.md
+        - file: storia/voci_di_ardania/289.md
+
+
 - file: CHAPTER:divinita.md
   sections:
     - file: divinita/madre.md
