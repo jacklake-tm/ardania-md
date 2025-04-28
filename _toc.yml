@@ -84,6 +84,8 @@ chapters:
         - file: storia/voci_di_ardania/287.md
         - file: storia/voci_di_ardania/288.md
         - file: storia/voci_di_ardania/289.md
+    - file: storia/timeline.md
+    - file: storia/timeline_old.md
 
 
 - file: CHAPTER:divinita.md
