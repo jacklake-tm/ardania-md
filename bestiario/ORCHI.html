@@ -1,0 +1,853 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>4.5. Orchi &#8212; Il Mondo di Ardania</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'bestiario/ORCHI';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="4.6. Demoni" href="Demoni.html" />
+    <link rel="prev" title="4.4. Licantropi" href="LICANTROPI.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../README.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/banner.jpg" class="logo__image only-light" alt="Il Mondo di Ardania - Home"/>
+    <script>document.write(`<img src="../_static/banner.jpg" class="logo__image only-dark" alt="Il Mondo di Ardania - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../README.html">
+                    Il Mondo di Ardania
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../CHAPTER%3Ageografia.html">1. La Geografia di Ardania</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../geografia/continente_umano.html">1.1. Continente Umano</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../geografia/continente_elfico.html">1.2. Reame Elfico (Doriath)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../geografia/terre_del_nord.html">1.3. Terre del Nord</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../geografia/terre_selvagge.html">1.4. Terre Selvagge</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../geografia/sottosuolo.html">1.5. Sottosuolo Oscuro</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../geografia/ankor_drek.html">1.6. Ankor Drek</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../geografia/generalita.html">1.7. Generalità su Ardania</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../geografia/mappa.html">1.8. La Mappa di Ardania</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../CHAPTER%3Astoria-e-razze.html">2. Storia delle Razze di Ardania</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../storia/umani.html">2.1. Storia degli Uomini.</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../storia/umani/descrizione_generale.html">2.1.1. Descrizione generale</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/umani/storia_reame_umano.html">2.1.2. Storia del Reame Umano</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/umani/nordici.html">2.1.3. I Nordici</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/umani/tremecciani.html">2.1.4. I Tremecciani</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/umani/qwaylar.html">2.1.5. I Qwaylar</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/umani/popoli_minori.html">2.1.6. Popoli minori</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../storia/elfi.html">2.2. Storia degli Elfi</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../storia/elfi/descrizione_generale.html">2.2.1. Descrizione generale</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/elfi/storia_elfica.html">2.2.2. Storia Elfica</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/elfi/approfondimenti.html">2.2.3. Approfondimenti</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/elfi/magia.html">2.2.4. La Magia per gli Elfi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/elfi/quenya.html">2.2.5. I Quenya</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/elfi/sindar.html">2.2.6. I Sindar</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/elfi/teleri.html">2.2.7. I Teleri</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../storia/mezzelfi.html">2.3. Storia dei Mezzelfi</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../storia/mezzelfi/descrizione_generale.html">2.3.1. Descrizione Generale</a></li>
+
+<li class="toctree-l3"><a class="reference internal" href="../storia/mezzelfi/approfondimenti.html">2.3.3. Approfondimenti</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/mezzelfi/leggende.html">2.3.4. Leggende, dicerie, storie e superstizioni</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../storia/nani.html">2.4. Storia dei Nani</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../storia/nani/descrizione_generale.html">2.4.1. Descrizione generale</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/nani/storia_nanica.html">2.4.2. Storia nanica</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/nani/approfondimenti.html">2.4.3. Approfondimenti</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/nani/magia.html">2.4.4. La Magia per i Nani</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2"><a class="reference internal" href="../storia/generalita.html">2.5. Generalità sull’idea di Razza nel gioco.</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../storia/misteri.html">2.6. I Misteri di Ardania di Gartax di Picco dell’Aquila</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../storia/misteri/cosmologia.html">2.6.2. La Cosmologia di Ardania</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/misteri/geografia.html">2.6.3. La Geografia Ardanense</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/misteri/calendario.html">2.6.4. Il Calendario</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/misteri/molti_luoghi.html">2.6.5. I Molti Luoghi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/misteri/punti_salienti_storia_antica.html">2.6.6. Punti Salienti della Storia antica</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../storia/recent_history.html">2.7. Manoscritto - Storia degli Ultimi anni</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/266.html">2.7.1. Anno 266</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/267.html">2.7.2. Anno 267</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/cometa.html">2.7.3. Resoconto della Grande Cometa del 267</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/268.html">2.7.4. Anno 268</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/269.html">2.7.5. Anno 269</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/270.html">2.7.6. Anno 270</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/271.html">2.7.7. Anno 271</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/272.html">2.7.8. Anno 272</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/273.html">2.7.9. Anno 273</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/274.html">2.7.10. Anno 274</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/275.html">2.7.11. Anno 275</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/276.html">2.7.12. Anno 276</a></li>
+
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/277.html">2.7.14. Anno 277</a></li>
+
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/278.html">2.7.16. Anno 278</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/279.html">2.7.17. Anno 279</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/280.html">2.7.18. Anno 280</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/281.html">2.7.19. Anno 281</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/282.html">2.7.20. Anno 282</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/283.html">2.7.21. Anno 283</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../CHAPTER%3Adivinita.html">3. Divinità in Ardania</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../divinita/madre.html">3.1. Il Culto della Madre</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../divinita/umani.html">3.2. Divinità Umane</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/cosmogonia.html">3.2.1. Cosmogonia</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/cosmogonia_nordica.html">3.2.2. Cosmogonia Nordica</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/cosmogonia_tremec.html">3.2.3. Cosmogonia tremecciana</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/crom.html">3.2.4. Crom</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/vashnaar.html">3.2.5. Vashnaar</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/althea.html">3.2.6. Althea</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/aengus.html">3.2.7. Aengus</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/danu.html">3.2.8. Danu</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/oghmar.html">3.2.9. Oghmar</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/awen.html">3.2.10. Awen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/yggr.html">3.2.11. Yggr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/hejldam.html">3.2.12. Hejldam</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/akkron.html">3.2.13. Akkron</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/lostris.html">3.2.14. Lostris</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/mawu.html">3.2.15. Mawu</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/altri_elementi.html">3.2.16. Altri elementi del mito umano</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../divinita/elfi.html">3.3. Divinità Elfiche</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/elfi/cosmogonia.html">3.3.1. Cosmogonia</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/elfi/suldanas.html">3.3.2. Suldanas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/elfi/beltaine.html">3.3.3. Beltaine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/elfi/earlann.html">3.3.4. Earlann</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/elfi/morrigan.html">3.3.5. Morrigan</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/elfi/luugh.html">3.3.6. Luugh</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/elfi/kelthra.html">3.3.7. Kelthra</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/elfi/altre_divinita.html">3.3.8. Altre creature divine</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../divinita/nani.html">3.4. Divinità Naniche</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/nani/korg.html">3.4.1. Korg</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/nani/berzale.html">3.4.2. Berzale</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/nani/dera.html">3.4.3. Dera</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/nani/culto_morti.html">3.4.4. Altri cenni e culto dei morti</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../CHAPTER%3Abestiario.html">4. Bestiario (mostri, demoni, esseri e creature) di Ardania.</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="Bestie_Esotiche.html">4.1. Bestie Esotiche</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Elementali.html">4.2. Elementali</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Gazer.html">4.3. Gazer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="LICANTROPI.html">4.4. Licantropi</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">4.5. Orchi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Demoni.html">4.6. Demoni</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Juka.html">4.7. Juka</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GOBLIN.html">4.8. Goblin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Giganti.html">4.9. Giganti</a></li>
+<li class="toctree-l2"><a class="reference internal" href="NonMorti.html">4.10. NonMorti</a></li>
+<li class="toctree-l2"><a class="reference internal" href="TERATHAN.html">4.11. Terathan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Draghi.html">4.12. Draghi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Galli_da_Combattimento.html">4.13. Galli da Combattimento</a></li>
+<li class="toctree-l2"><a class="reference internal" href="OPHIDIANI.html">4.14. Ophidiani</a></li>
+<li class="toctree-l2"><a class="reference internal" href="VILDERON.html">4.15. Vilderon</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../CHAPTER%3Adungeons.html">5. I Principali Doungeons in Ardania.</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../dungeons/arpie.html">5.1. Arpie</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dungeons/briganti_tasso.html">5.2. Briganti del Tasso</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dungeons/fortezza_elenrond.html">5.3. Fortezza di Elenrond</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dungeons/goblin_arcipelago.html">5.4. Goblin dell’Arcipelago</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dungeons/illithid.html">5.5. Illithid</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dungeons/jahr_sauri.html">5.6. Jahr Sauri</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dungeons/juka.html">5.7. Juka</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dungeons/kur_nughul.html">5.8. Kur Nughul</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dungeons/ofidiani_doriath.html">5.9. Ofidiani Doriath</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dungeons/surtur.html">5.10. Surtur</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dungeons/trogloditi.html">5.11. Caverna Trogloditi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dungeons/uomini_topo.html">5.12. Tana Uomini Topo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dungeons/valle_spiritelli.html">5.13. Valle degli Spiritelli</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dungeons/zar_vagor.html">5.14. Zarr Vagor</a></li>
+</ul>
+</details></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/bestiario/ORCHI.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Orchi</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#caratteristiche-fisiche">4.5.1. Caratteristiche fisiche</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#organizzazione-sociale">4.5.2. Organizzazione sociale</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#religione">4.5.3. Religione</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#clan-orcheschi">4.5.4. CLAN ORCHESCHI</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clan-zanne-insanguinate">4.5.4.1. Clan Zanne Insanguinate</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clan-ulah-kreen">4.5.4.2. Clan Ulah Kreen</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clan-tranaght">4.5.4.3. Clan Tranaght</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clan-del-drago">4.5.4.4. Clan del Drago</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clan-della-fortezza-nascosta-in-orchesco-clan-lugfauth">4.5.4.5. Clan della Fortezza Nascosta (in orchesco Clan Lugfauth)</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#npg-orcheschi">4.5.5. NPG ORCHESCHI</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#zanna">4.5.5.1. Zanna</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#figli-di-zanna">4.5.5.2. Figli di Zanna</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#altri">4.5.5.3. Altri</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#storia-antica">4.5.6. STORIA ANTICA</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#origini-della-razza">4.5.6.1. Origini della razza</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#prima-comunita-orchesca">4.5.6.2. Prima comunità orchesca</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#il-culto-del-fuoco">4.5.6.3. Il culto del Fuoco</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#schiavitu-dei-minotauri">4.5.6.4. Schiavitú dei Minotauri</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ritorno-nellhildoriath">4.5.6.5. Ritorno nell’Hildoriath</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#fondazione-di-dunthragnir">4.5.6.6. Fondazione di Dunthragnir</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#storia-moderna">4.5.7. STORIA MODERNA</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#organizzazione-di-dunthragnir">4.5.7.1. Organizzazione di Dunthragnir</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#avvento-di-rozmund">4.5.7.2. Avvento di Rozmund</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#prima-battaglia-con-gli-umani">4.5.7.3. Prima battaglia con gli umani</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sconfitta-di-rozmund">4.5.7.4. Sconfitta di Rozmund</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#avvento-di-kattlekah-zanna-e-del-clan-degli-ulah-kreen">4.5.7.5. Avvento di Kattlekah ‘Zanna’ e del clan degli Ulah Kreen</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#grande-guerra-del-191">4.5.7.6. Grande guerra del 191</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ritorno-a-dunthragnir">4.5.7.7. Ritorno a Dunthragnir</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#storia-contemporanea">4.5.8. STORIA CONTEMPORANEA</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#primi-scontri-con-i-grimlock">4.5.8.1. Primi scontri con i Grimlock</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#patto-con-loknar-e-lo-scontro-con-kard">4.5.8.2. Patto con Loknar e lo scontro con Kard</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="orchi">
+<h1><span class="section-number">4.5. </span>Orchi<a class="headerlink" href="#orchi" title="Link to this heading">#</a></h1>
+<p>Gli orchi sono una delle maggiori piaghe che Ardania e i suoi abitanti abbia mai dovuto affrontare. Sin dalla terribile battaglia che infuriò oltre il Faver nel A.I. 101 gli eserciti di ogni principale città si sono preparati ad affrontare ulteriori invasioni e razzie da parte di questa bellicosa razza. Infatti dopo la disfatta del esercito orchesco i capi di ogni tribù si organizzarono in clan più o meno numerosi all’interno di grotte o edifici abbandonati. Uno dei più grandi accampamenti di orchi si trova al confine con la città di Amon, infatti quella zona che va dalla città vecchia di Amon al confine del mare settentrionale viene chiamata da molti il “regno degli orchi”.</p>
+<section id="caratteristiche-fisiche">
+<h2><span class="section-number">4.5.1. </span>Caratteristiche fisiche<a class="headerlink" href="#caratteristiche-fisiche" title="Link to this heading">#</a></h2>
+<p>Gli orchi sono solitamente di colore tra il verde ed il marrone, tendente allo scuro.
+La loro altezza varia da 120 a 170 cm e il loro corpo è tarchiato e compatto, con arti solidi, ben muscolosi e robusti. Il corpo è sovente segnato da un’infinità di cicatrici che gli orchi praticano a se stessi in occasione di particolari rituali o che sono la testimonianza – cosa di cui vanno particolarmente fieri – delle battaglie sostenute. Il loro cranio è massiccio e largo, con una cresta ossea sagittale lievemente in rilievo al centro e presenta una potente mascella con canini prominenti. Da questa descrizione generale si discostano per alcuni tratti somatici distintivi un piccolo gruppo di orchi che costituiscono un clan coeso e specializzato: il clan Tranaght. Gli appartenenti a questo clan sono orchi leggermente più alti e di colore più chiaro rispetto ai cugini e ciò forse può essere spiegato da una prolungata permanenza di questi individui nel sottosuolo che ne ha sviluppato le doti di agilità e furtività.</p>
+<p>Più piccoli di statura e meno massicci sono i due gruppi di orchi rimasti nel Doriath dopo l’ultimo scontro con gli elfi: i Vilderon e i Goblin. Questi gruppi, abitanti di caverne e con un sistema sociale più militarizzato, hanno una pelle di colore dal nero al verde cupo e sono più goffi e lenti.</p>
+</section>
+<section id="organizzazione-sociale">
+<h2><span class="section-number">4.5.2. </span>Organizzazione sociale<a class="headerlink" href="#organizzazione-sociale" title="Link to this heading">#</a></h2>
+<p>Gli orchi, feroci e territoriali, hanno un’organizzazione sociale che si estende su un territorio molto vasto nella zona ad est del continente umano. Il popolo è diviso in clan, guidati da un capo e stanziati in fortini o accampamenti disseminati per l’intero territorio. Capitale è la fortezza di Dunthragnir, sede anche del Sovrano indiscusso al quale gli altri debbono obbedienza, attorniato dalle divisioni militari più feroci e dagli sciamani custodi di reliquie e bottini di guerra.
+Le faide tra clan e le lotte interne non mancano mai ma gli orchi sono uniti dal senso di appartenenza alla razza, nonché dall’odio comune per le altre razze. In special modo contro gli elfi per la storia passata, perché hanno scartato gli orchi come imperfetti e per le vicende che hanno riguardato Ghaunadaur; gli uomini sono odiati per tutto quello che ha rappresentato Amon; i nani perché sono in competizione per il controllo del mondo sotterraneo e per le risorse che questo può offrire.
+Ma la guerra non è motivata solo dall’odio, la guerra è il legante che tiene insieme la società degli orchi e anche il sistema per selezionare i più forti, i capi che governano i clan e il Sovrano dell’intero regno. La guerra, intesa come strumento di conquista e di stabilità sociale, è l’anima del popolo orchesco.</p>
+<p>I capiclan presiedono al Consiglio di Guerra permanente, strumento di controllo del Sovrano e fulcro del mantenimento del potere che dai superiori si riflette via via sulla scala gerarchica. Nel consiglio di guerra si stabiliscono gli approvvigionamenti delle risorse, gli addestramenti dei giovani o i rapporti tra clan. Le femmine rappresentano il gradino più basso, non hanno tendenzialmente ruoli di guida né militari ma vengono addestrate alla stregua dei maschi affinché siano esse stesse ad avviare alla guerra i cuccioli che mettono al mondo, fin da piccoli. Gli orchi non svolgono lavori di coltivazione né di allevamento poiché in netto contrasto con il loro modo di vivere fondato sullo sterminio e mai sulla continuità delle attività. Unica eccezione, nell’operatività orchesca, si nota nell’arte mineraria, sia d’estrazione che di forgiatura, che segue rituali, a volte animisti e religiosi, e viene praticata da orchi operai, per il lavoro in miniera, o da maestri della forgiatura per ciò che riguarda la creazione di armi rudimentali e protezioni. Particolarmente fiorente è l’art di costruire passaggi sotto le loro terre per l’estrazione.
+Gli orchi sono poligami ed il numero delle femmine a disposizione di un orco maschio è direttamente proporzionale al valore in battaglia e quindi alla sua posizione militare nella scala gerarchica. Lo scopo di questo costume è sia rafforzare la struttura del clan mediante i legami di sangue dei più alti in grado, sia mettere al mondo il maggior numero di figli dei guerrieri più dotati.</p>
+</section>
+<section id="religione">
+<h2><span class="section-number">4.5.3. </span>Religione<a class="headerlink" href="#religione" title="Link to this heading">#</a></h2>
+<p>Gli orchi, una volta liberi dalla schiavitú elfica, stanziati sull’isola Vulcano, iniziarono a venerare l’elemento fuoco che permise loro di scoprire la forgiatura e con esso lo Spirito del Fuoco, identificato nel vulcano stesso. Via via lo sciamanesimo ha iniziato a rivolgere le proprie attenzioni anche alle manifestazioni atmosferiche fondando il culto di Nadeesh – “Signore Degli Elementi” in lingua orchesca-. Il culto però decadde alla morte di Ghaunadaur, primo portavoce dello Spirito del Fuoco, e divenne esso stesso divinità riconosciuta come Dio della Morte e del Sacrificio e la cui arma è reliquia custodita all’interno della capitale. Dopo le guerre con gli umani gli orchi iniziarono a compiere sacrifici animali ed umani al dio della Guerra, Azghork, in rituali propiziatori prima della battaglia.</p>
+</section>
+<section id="clan-orcheschi">
+<h2><span class="section-number">4.5.4. </span>CLAN ORCHESCHI<a class="headerlink" href="#clan-orcheschi" title="Link to this heading">#</a></h2>
+<section id="clan-zanne-insanguinate">
+<h3><span class="section-number">4.5.4.1. </span>Clan Zanne Insanguinate<a class="headerlink" href="#clan-zanne-insanguinate" title="Link to this heading">#</a></h3>
+<p>Stanziate nella capitale Dunthragnir, sono le guardie del corpo e le truppe scelte di Kattlekah, detto Zanna, l’attuale capo indiscusso di tutto il popolo orchesco. Il comando e ‘addestramento di questo clan è affidato al figlio minore Kraaag, il Primo Comandante. Raramente si vedono in azione, ma se loro entrano in battaglia allora quasi sicuramente anche il Sovrano si sta muovendo.</p>
+</section>
+<section id="clan-ulah-kreen">
+<h3><span class="section-number">4.5.4.2. </span>Clan Ulah Kreen<a class="headerlink" href="#clan-ulah-kreen" title="Link to this heading">#</a></h3>
+<p>Fanno parte di questo clan i combattenti e gli sciamani che ereditano le conoscenze ed il potere fornito dai Necrarchi di Surtur. I combattenti hanno una stazza ed una forza superiore e poteri che gli vengono forniti dagli sciamani i quali, a loro volta, sono abili nell’arte magica oscura, legata ai demoni ed ai non morti. Vengono guidati dal potente sciamano Katrumush che a sua volta è consigliere di Zanna. La particolarità fisica che viene richiesta ai combattenti membri di questo clan è talmente rara, così come la predisposizione alla magia, che non gli consente mai di essere molto numeroso e perciò non costituisce una minaccia per il potere di Zanna o degli altri clan. Gli Ulah Kreen non vivono in superficie, i loro accampamenti sono sempre in grotte o antri per lo piú sconosciuti. Quando però escono in superficie per razziare o partecipare alle battaglie, incutono sempre rispetto negli altri clan e sono il piú delle volte seguiti da evocazioni non morte o da spiritelli demoniaci.</p>
+</section>
+<section id="clan-tranaght">
+<h3><span class="section-number">4.5.4.3. </span>Clan Tranaght<a class="headerlink" href="#clan-tranaght" title="Link to this heading">#</a></h3>
+<p>Sono un clan di orchi specializzato in incursioni nei territori confinanti o nella difesa di installazioni orchesche. Tra di loro non vengono addestrati maghi perché lo stile di combattimento è sempre di corpo a corpo, veloce, irruento e sono soliti cavalcare enormi lupi. Coloro che non sono abbastanza forti da riuscire a sottomettere un lupo vengono addestrati ad utilizzare esplosivi o come assassini.</p>
+</section>
+<section id="clan-del-drago">
+<h3><span class="section-number">4.5.4.4. </span>Clan del Drago<a class="headerlink" href="#clan-del-drago" title="Link to this heading">#</a></h3>
+<p>Le conoscenze riguardo al fuoco ha fatto sí che si formasse un clan dedito per lo piú al culto dello Spirito della Fiamma ed alla lavorazione di intrugli alchemici che se bevuti consentono agli orchi di soffiare fiamme, proprio come i draghetti rossi. Escono dal loro forte a gruppetti di 3 o 4 alla ricerca di materiali e reagenti che servono agli alchimisti per produrre le pozioni. Attendono viaggiatori e malcapitati nei posti piú disparati, per depredarli e sono accaniti fanatici degli incendi, non è raro infatti trovare intere zone boschive ridotte in cenere dallopera degli orchi del Drago. Non hanno però alcun legame con questo animale, seppur ne portano spesso scaglie appese al collo o attaccate alle corazze rudimentali, non avendo la conoscenza della lavorazione delle scaglie dei draghi per le armature. Quando invece scendono in battaglia insieme si preannunciano con urla terrificanti e fastidiose, rituali allo Spirito della Fiamma al quale consacrano ogni devastazione.</p>
+</section>
+<section id="clan-della-fortezza-nascosta-in-orchesco-clan-lugfauth">
+<h3><span class="section-number">4.5.4.5. </span>Clan della Fortezza Nascosta (in orchesco Clan Lugfauth)<a class="headerlink" href="#clan-della-fortezza-nascosta-in-orchesco-clan-lugfauth" title="Link to this heading">#</a></h3>
+<p>Recentemente è venuta alla luce una nuova comunitè di orchi che ha vissuto per moltissimi anni in isolamento totale, sviluppando un linguaggio un po’ differente ed usi a volte discostanti da quelli degli altri orchi. Si presuppone che gli orchi abbiano occupato un antichissimo insediamento umano, probabilmente ai tempi delle grandi guerre, restandovi poi in isolamento. Questo isolamento ha favorito dei mutamenti nel loro modo di pensare e nei loro numeri, dando inizio ad un nuovo sistema sociale. L’ordinamento politico infatti è di tipo matriarcale e a guida del clan vi è sempre una femmina. Al centro del clan ci sono gli sciamani, il tipo di magia è necromantica ma anche elementale, entrambe differenti da quella degli Ulah Kreen, con studi improntati all’evocazione di varie creature e fenomeni, tra cui notoriamente anche spiriti elementali. In qualche modo, le conoscenze tramandate da questo clan, si discostano dallo sciamanesimo puro degli orchi comuni, per avvicinarsi ad uno studio di tipo arcano, forse reso possibile anche dall’atmosfera piú mite che vige grazie alla natura matriarcale del comando.
+Il clan sembra anche aver sviluppato la capacità di dominare o quantomeno tenere a distanza i temibili Vargouille, creature che per superstizione alcuni vogliono essere una maledizione necromantica orchesca, figli trucidati in guerra di quelle orchesse che si sono rifugitate nella fortezza, riportati ad una non vita per trarre vendetta (quanto di questo sia vero è poi in discussione).
+Si pensa che il Clan Lugfauth sia tornato alla luce ed a contatti piú frequenti con il mondo esterno successivamente al Grande Terremoto che ha sconvolto le terre degli orchi e forse anche all’attività dei Grimlock che hanno scavato immense caverne sotto i monti Orquirian, prima di sferrare il loro attacco al regno orchesco. Attualmente sembra esistere un accordo tra il capo degli sciamani e Zanna ed evidentemente quest’ultimo sta valutando come utilizzare questo inaspettato alleato che impiega le femmine ed è governato da esse, come gli orchi non sono abituati a vedere.</p>
+</section>
+</section>
+<section id="npg-orcheschi">
+<h2><span class="section-number">4.5.5. </span>NPG ORCHESCHI<a class="headerlink" href="#npg-orcheschi" title="Link to this heading">#</a></h2>
+<section id="zanna">
+<h3><span class="section-number">4.5.5.1. </span>Zanna<a class="headerlink" href="#zanna" title="Link to this heading">#</a></h3>
+<p><strong>Zanna Kattlekah</strong> è la creatura piú temuta in tutte le terre selvagge.
+È un orco dalle proporzioni gigantesche che si dice abbia la forza di 10 giganti. Al momento è il Sovrano di tutti i Clan e la sua residenza è la capitale orchesca. Zanna, com’è conosciuto dagli umani, è terrificante in combattimento e nulla sembra potergli resistere. Con la sola forza del terrore che incute, grazie alla legge del piú forte, riesce ad avere il rispetto di tutti i clan. Da giovanissimo si distinse creando le “zanne insanguinate”, al servizio di Rozmund, un piccolo clan guerriero che ora è il fulcro combattente delle grande fortificazione che comanda. Zanna ed il suo gruppo, riuscirono a conquistare a piú riprese fortini di Clan orcheschi rivali, fino a quando la grandezza stessa del potere di Kattlekah, lo portò sul trono degli orchi. Le leggende dicono che non dovette neanche combattere per ottenerlo, ma gli bastò lanciare una sfida aperta a tutti gli orchi che nessuno raccolse. Al centro della sua abitazione vi è un’ascia che egli stesso piantò dopo aver decapitato gli ultimi capiclan ribelli, affinché chi intendesse sfidarlo, la possa impugnare. Ad oggi nessuno ha mai osato farlo.
+Il suo soprannome tra gli uomini lo si deve al fatto che Kuttlekah ha perso una zanna sul campo di battaglia, una cosa però di cui nessuno tra gli orchi è autorizzato a parlare. Zanna ha avuto piú di 20 femmine e procreato talmente tanti figli da essere incerto il numero. Si sa però che tra tutti ne ha addestrati 3 personalmente, i piú prestanti fisicamente, Jhakla il maggiore, Dakmand lo scomparso e Kraaag il minore.</p>
+</section>
+<section id="figli-di-zanna">
+<h3><span class="section-number">4.5.5.2. </span>Figli di Zanna<a class="headerlink" href="#figli-di-zanna" title="Link to this heading">#</a></h3>
+<p><strong>Jhakla</strong> era a capo di un gruppo di cavalcalupi ed ha guidato la spedizione che conquistò il Picco degli Ululati vicino alla città libera di Loknar. Jhakla era noto per la sua scaltrezza e per essere in possesso dell’Elmo di Agravain, il Re di Amon morto nella Grande Guerra dell’A.I. 191 il cui corpo fu trafugato dagli orchi. L’elmo però non ha portato fortuna a Jhakla quando la Legione riuscí ad intrappolarlo nel sottosuolo e a riportare l’elmo ad Amon con la testa di Jahkla.</p>
+<p><strong>Dakmand</strong> era stato uno degli orchi addestrati dai Necrarchi di Surtur e le leggende dicono che cadde in battaglia alla Guerra dei Fiumi. Qualcuno però sostiene di averlo visto tornare da quella battaglia e che si sia rifugiato nel clan degli Ulah Kreen in attesa di riunire abbastanza orchi per combattere il padre e prendere il potere. Non sono mistero infatti i numerosi scontri tra Zanna e il figlio che ha sempre accusato il padre di preferire Jhakla nonostante fosse piú forte e scaltro Dakmand stesso.</p>
+<p><strong>Kraaag</strong>, scomparsi gli altri due fratelli, è rimasto il Comandante delle truppe di Zanna. Fu il custode della spada del Re Agravain per moltissimi anni, essendo stato accanto al padre quando il Re perí sotto i colpi di Zanna. La spada però fu recuperata dagli amoniani durante un assalto alla capitale alcuni anni fa, quando messo in difficoltà, Kraaag fu costretto a ritirarsi nel forte orchesco seminando il prezioso cimelio.</p>
+</section>
+<section id="altri">
+<h3><span class="section-number">4.5.5.3. </span>Altri<a class="headerlink" href="#altri" title="Link to this heading">#</a></h3>
+<p><strong>Katrumush</strong>, capo clan degli Ulah Kreen, fu addestrato direttamente dai Necrarchi di Surtur, non tanto per la sua stazza imponente quanto per le straordinarie doti naturali legate alla magia. Katrumush è in grado di evocare demoni e plasmare creature demoniache al suo servizio, fu complice di Jahkla durante un attacco alle terre amoniane ed è oggi il primo consigliere di Zanna.</p>
+<p><strong>Udhka</strong> è la capoclan degli Lugfauth, alta oltre 2 metri, dalla stazza imponente ed il grugno terrificante. Non è un’abilissima sciamana, tuttavia è in grado, in una maniera ad oggi sconosciuta, di dominare i Vargouille che la seguono; eccelle inoltre nella lotta ed è tenuta in grande rispetto dall’intero clan. Si narra che quando il clan venne scoperto e Udhka si presentò a Zanna, egli provò a sottometterla, in quanto femmina, ma comprese presto che sarebbe stato piú utile assoggettare l’intero clan al suo potere e perciò provò a prenderla con sé insieme alle altre sue mogli. Il rifiuto di Udhka lo adirò talmente tanto da emettere un urlo rabbioso che risuonò per tutte le terre orchesche facendo tremare la terra, ma i poteri evocativi dell’orchessa che lo circondò di creature, insieme ad uno sciame di Vargouille, lo impressionarono positivamente e la introdusse subito nel consiglio di guerra, cercando di instaurare con lei un conveniente rapporto.</p>
+</section>
+</section>
+<section id="storia-antica">
+<h2><span class="section-number">4.5.6. </span>STORIA ANTICA<a class="headerlink" href="#storia-antica" title="Link to this heading">#</a></h2>
+<section id="origini-della-razza">
+<h3><span class="section-number">4.5.6.1. </span>Origini della razza<a class="headerlink" href="#origini-della-razza" title="Link to this heading">#</a></h3>
+<p>Gli orchi sono una progenie elfica corrotta nella mente e nel corpo, essi vengono chiamati Ghauna, dalle popolazioni elfiche, termine che sta per ‘imperfetti’ o ‘reietti’.
+Accadeva nelle comunità elfiche che, ad intervalli di molte stagioni, venissero alla luce neonati con varie malformazioni, poi ripudiati ma lasciati vivere e crescere nella comunità, sebbene ai margini, e con compiti sempre molto umili. Nel corso dei secoli i primi Ghauna, il primordio di ciò che oggi conosciamo come Orchi, cominciarono ad unirsi e riprodursi tra loro, divenendo sempre piú numerosi e distanziandosi sempre di piú dagli elfi che li sottomettevano.
+La storia elfica individua nella nascita del figlio deforme di Re Feonwe e della Regina Aetheldore il punto di svolta nella vita dei Ghauna. Essi misero alla luce infatti un reietto, ripudiandolo e dando notizia della sua morte, che in realtà fu adottato dalla comunità Ghauna. Nessuno conosceva le sue origini, cosí come la maggior parte dei Ghauna che venivano abbandonati nei boschi e di rado risalivano ai propri veri genitori. Il giovane reietto, figlio dei reali, crebbe sano, forte ed eccezionalmente intelligente per essere un Ghauna.
+Fu cosí che gli fu dato il nome di Ghaunadaur, che nella lingua degli ‘imperfetti’ significava ‘il migliore fra i Ghauna’. Sin da giovane Ghaunadaur fu riconosciuto, dai suoi stessi simili, come capo della principale comunità, mantenendo per’ ben celata la sua presenza agli occhi degli elfi. Con la presa di coscienza dello stato meschino in cui i Ghauna erano condizionati a vivere, cresce anche in Ghaunandur l’idea della forza della propria razza e cosí arrivò a guidare l’insurrezione dei reietti contro gli elfi.
+Le sorti della battaglia volsero a favore degli elfi, complice la loro sapienza nell’uso della magia, sconosciuta ai Ghauna. Sedata col sangue la rivolta, i Ghauna rimanenti vennero graziati e fu concesso loro di vivere lontano dalle terre elfiche. Ghaunandur perciò radunò i suoi sulle coste ad ovest e partí, con imbarcazioni rudimentali, dando inizio agli anni dell’Esilio dall’Hildoriath e degli ‘imperfetti’ nulla si seppe piú per molti e molti secoli…</p>
+<p>Per approfondimenti si consiglia di leggere questo capitolo del Background degli Elfi.</p>
+</section>
+<section id="prima-comunita-orchesca">
+<h3><span class="section-number">4.5.6.2. </span>Prima comunità orchesca<a class="headerlink" href="#prima-comunita-orchesca" title="Link to this heading">#</a></h3>
+<p>Il lungo viaggio li porta ad approdare sull’isola conosciuta come Vulcano, ad ovest delle terre elfiche. Lí, impreparati alla vita fuori dall’Hildoriath, trascorrono molti decenni tra gli stenti, esasperando le caratteristiche di brutalità e forza fisica, disgregati dapprima, nemici gli uni con gli altri, poi col tempo riunendosi, per sopravvivere insieme in un’isola impervia e spesso invasa dalla lava di un vulcano ancora attivo. Diventano una società tribale dove l’unica legge è quella del piú forte, gli accoppiamenti avvengono anche tra consanguinei e i piú deboli vengono soppressi.</p>
+</section>
+<section id="il-culto-del-fuoco">
+<h3><span class="section-number">4.5.6.3. </span>Il culto del Fuoco<a class="headerlink" href="#il-culto-del-fuoco" title="Link to this heading">#</a></h3>
+<p>Sono passati alcuni secoli, Ghaunadaur è ancora il piú forte, guida l’intero popolo dei Ghauna anche grazie alla sua scaltrezza e lungimiranza, caratteristiche forti in lui essendo figlio puro di due reali elfici. Durante un’esplorazione ai piedi della montagna vulcano Ghaunadaur scopre un passaggio dove lava e fumi sono meno forti, l’ambiente è respirabile e là guida alcuni dei suoi prescelti raccontandogli che lo Spirito del Fuoco aveva rivelato che quello era il luogo prescelto per far risorgere il popolo dei reietti. Infatti è là che con la lava che ribolliva in alcune conche, riscoprono l’arte della forgiatura, ritornando ad usare metalli e a costruire le prime armi rudimentali, declassando quelle in osso o in pietra. Per mesi e mesi una moltitudine di orchi lavora incessantemente all’estrazione mineraria ed alla forgiatura, nelle caverne del Monte Vulcano divenuto tempio, dove Ghaunadaur si dichiara portavoce e sciamano dello Spirito del Fuoco. Il culto del Fuoco si diffonde, le prime costruzioni adibite ad abitazioni vengono rinforzate, cosí come le imbarcazioni, viene preparata una flotta, le gerarchie interne si articolano. La società è tribale ma sempre con un capo, i prescelti, gli sciamani. Tutti indistintamente coltivano l’arte bellica, che è furiosa, incontrollata. Nel vulcano, tempio e forgia, hanno accesso solo i designati da Ghaunadaur.</p>
+</section>
+<section id="schiavitu-dei-minotauri">
+<h3><span class="section-number">4.5.6.4. </span>Schiavitú dei Minotauri<a class="headerlink" href="#schiavitu-dei-minotauri" title="Link to this heading">#</a></h3>
+<p>La necessità di una quantità sempre maggiore di metalli e legnami, spinge una spedizione di esploratori Ghauna alla ricerca di altre terre, che li condurrà su un’isola a nord di quella del Vulcano, abitata da un gruppo di Minotauri. Questi vengono catturati in grande quantità e portati sull’isola per essere schiavizzati ed impiegati nelle miniere o nei boschi. I Minotauri piú abili nell’artigianato vengono condotti alle forge, altri invece sacrificati nei rituali allo Spirito del Fuoco. Quelli che spiccavano per particolari conoscenze sciamaniche invece, vengono affiancati agli sciamani orchi e questi, dai Minotauri stessi, apprendono maggiori conoscenze divinatorie e magiche, fino anche alla necromanzia. I Minotauri sciamani, stringendo un patto con Ghaunadaur, ottengono di ritornare sulla loro isola per perfezionare la loro razza, con le nuove conoscenze apprese, e divenire alleati del popolo dei Ghana.</p>
+</section>
+<section id="ritorno-nellhildoriath">
+<h3><span class="section-number">4.5.6.5. </span>Ritorno nell’Hildoriath<a class="headerlink" href="#ritorno-nellhildoriath" title="Link to this heading">#</a></h3>
+<p>L’intento di Ghaunadaur è quello di ritornare nell’Hildoriath per riprendere ciò che a suo avviso gli spetta di diritto: le terre natie. A questo intento i Ghauna lavorano per decenni e decenni, formando squadre di esploratori, guerrieri, sciamani che imparano a manipolare gli elementi con una magia rudimentale mista al culto religioso.
+Infine arriva il momento della partenza, nessuno rimane sull’isola, è una vera e propria spedizione di colonizzazione. Ghaunadaur celebra un rituale propiziatorio allo Spirito del Fuoco, nel vulcano vengono sacrificati i Ghauna deboli e piú piccoli, tutto viene dato alla lava. Dietro si lasciano un’isola in fiamme e null’altro.
+L’approdo di Ghaunadaur e dei suoi nell’Hildoriath porta allo scontro storico tra Elfi e Ghauna. Gli invasori che giungono da lontano sono quasi irriconoscibili per gli elfi: deformi, sanguinari, feroci, seppur fisicamente non sono ancora come gli orchi che oggi siamo abituati a vedere. Al loro seguito hanno Minotauri schiavi, bestie trasportatrici e resistenti.
+Lo scontro porta alla morte dei condottieri di entrambe le fazioni: il Principe degli Elfi Thorondil da una parte, la guida dei Ghauan, Ghaunadaur dall’altra.</p>
+<p>Per approfondimenti si consiglia di leggere questo capitolo del Background degli Elfi.</p>
+<p>Gli orchi superstiti si sperdono, un piccolo gruppo si rifugia in qualche caverna nel basso Hildoriath, mentre la maggior parte degli altri scappa verso le coste, portando con sé l’arma della loro guida. I Minotauri si disperdono approfittando della situazione e rimangono nelle terre degli elfi, aggregandosi tra di essi in regioni distanti.
+Gli orchi che salpano con le imbarcazioni fanno rotta inversa, cercando di tornare all’isola Vulcano ma la foga, l’inesperienza, l’assenza del loro capo che conosceva la navigazione meglio di chiunque altro, li fa perdere in mare, sbagliando approdo e, invece dell’isola che ben conoscono, raggiungono la costa est del continente umano, qui si ritrovano nella foresta oggi conosciuta col nome di Triskele. Lungamente camminano alla ricerca di un posto sicuro dove insediarsi, lasciando dietro sé solo morte e scempio. Scompare l’idea di ritornare sull’isola Vulcano sulla quale avevano lasciato solo villaggi inceneriti e se ne tengono lontani temendo, a causa del loro fallimento bellico, l’ira dello Spirito del Fuoco che risiedeva nel Vulcano stesso.</p>
+</section>
+<section id="fondazione-di-dunthragnir">
+<h3><span class="section-number">4.5.6.6. </span>Fondazione di Dunthragnir<a class="headerlink" href="#fondazione-di-dunthragnir" title="Link to this heading">#</a></h3>
+<p>Dopo un lungo periodo migratorio gli orchi si imbattono nell’alta catena montuosa dei Monti Orquirian e, non riuscendo a valicarla, risalgono fino a nord tanto da imbattersi in un’altra catena. Là, sentendosi al sicuro circondati dai monti, fondano il primo accampamento orchesco nelle terre selvagge: Dunthragnir. Questo è l’inizio di una nuova civiltà, che via via si distanzierà sempre piú da quella dei Ghauna primigeni, per divenire quella tribale che oggi siamo abituati a scorgere.</p>
+<p>Ghaunadaur, leggenda e ricordo, viene assunto come divinità, una mescolanza del loro primordiale capo e dello Spirito del Fuoco di cui era portavoce e sciamano. La sua arma viene posta come reliquia sacra, gli sciamani diffondono l’idea che l’arma di Ghaunadaur ha in sé lo spirito e la sua forza, poiché l’arma di un combattente è la sua estensione terrena. Rubargliela è levargli quella forza, conservarla è impadronirsene.</p>
+</section>
+</section>
+<section id="storia-moderna">
+<h2><span class="section-number">4.5.7. </span>STORIA MODERNA<a class="headerlink" href="#storia-moderna" title="Link to this heading">#</a></h2>
+<section id="organizzazione-di-dunthragnir">
+<h3><span class="section-number">4.5.7.1. </span>Organizzazione di Dunthragnir<a class="headerlink" href="#organizzazione-di-dunthragnir" title="Link to this heading">#</a></h3>
+<p>Per molto, moltissimo tempo gli orchi si dedicarono all’organizzazione della loro nuova dimora edificando e razziando le terre circostanti. Dunthragnir venne circondata da alte palizzate di legno, al suo interno pochi edifici fortificati con pietre custodivano reliquie per lo piú in forma di teste mozzate, ossa e corpi appesi al sole, trofei delle battaglie con bestie e creature trovate in quelle terre. Rimanevano costantemente alimentati gli alti falò dedicati allo Spirito del Fuoco. Prese piede anche la religione del dio Nadeesh (Signore degli Elementi), uno spirito che governava tutti gli elementi naturali coi quali gli orchi stessi erano in continua lotta. La legge del piú forte decretava di volta in volta il capo dell’Orda, senza che però mai nessuno spiccasse per doti organizzative o capacità di guida, né avesse lunga durata. Alcuni gruppi ben presto si staccarono, in cerca di minerali, nuove zone dove insediarsi o semplicemente per controllare quel vastissimo territorio che ora gli orchi si ritrovavano a dominare.
+Furono edificati piccoli fortini che venivano affidati a dei clan con simboli e capi propri. Erano frequenti le lotte interne o tra clan, guerre che miravano ad uccidere, decimare, creare scompiglio. Tutto però ebbe fine quando tra gli orchi si fece strada Rozmund, un orco alto piú della media, in grado di brandire armi rudimentali pesantissime con una sola mano che, spietato e sanguinario, seppe imporsi come capo sconfiggendo tutti i suoi nemici e creandosi un nutrito gruppo di seguaci che con lui condividevano la follia della furia cieca.</p>
+</section>
+<section id="avvento-di-rozmund">
+<h3><span class="section-number">4.5.7.2. </span>Avvento di Rozmund<a class="headerlink" href="#avvento-di-rozmund" title="Link to this heading">#</a></h3>
+<p>Quella che oramai appariva come la capitale del territorio orchesco, Dunthragnir, divenne il simbolo del potere di Rozmund, ampliata e resa impenetrabile. L’abilità della nuova guida fu quella di riuscire ad impiegare ogni orco valorizzandone le caratteristiche: gruppi di orchi piú piccoli, gli orchetti, furono inviati per nuove esplorazioni sui monti Orquirian, altri addestrati all’uso di armi veloci e letali, i pochi in grado di praticare arti magiche furono impiegati per la costruzione di artefatti rudimentali esplosivi e le femmine, fino ad ora relegate ai margini della società, addestrate all’uso delle armi e maestre dei piccoli orchi che nascevano dai disordinati accoppiamenti.
+Rozmund diffuse anche il culto ed i sacrifici ad un’altra divinità, che andava ad affiancarsi a Ghaunadau: Azghork, il dio della Guerra.
+Quando un gruppo di esploratori comunicò al Rozmund la possibilità di valicare gli Orquirian, egli diede un nuovo scopo all’intero gruppo orchesco: razziare le terre di quella nuova razza che avevano imparato a conoscere, gli umani.</p>
+</section>
+<section id="prima-battaglia-con-gli-umani">
+<h3><span class="section-number">4.5.7.3. </span>Prima battaglia con gli umani<a class="headerlink" href="#prima-battaglia-con-gli-umani" title="Link to this heading">#</a></h3>
+<p>Rozmund uní tutti i clan sotto il proprio comando, copiosi gruppi di orchi marciarono al suono di corni da guerra oltre i monti, riversandosi nelle terre umane, fino al fiume Faver dove sorpresero l’esercito del Re hammin Zarquon e lo distrussero completamente. Per oltre due anni gli orchi saccheggiarono e depredarono quelle terre, fino alle porte della capitale umana Hammerheim, eliminando ogni villaggio, incendiando ogni insediamento. Era l’Anno Imperiale 104 e Rozmund da quel momento venne conosciuto come il Sanguinario.</p>
+<p>Per approfondimenti si consiglia di leggere questo capitolo del Background degli Umani.</p>
+</section>
+<section id="sconfitta-di-rozmund">
+<h3><span class="section-number">4.5.7.4. </span>Sconfitta di Rozmund<a class="headerlink" href="#sconfitta-di-rozmund" title="Link to this heading">#</a></h3>
+<p>Con la morte del Re hammin e la battaglia che infuriava alle mura della Capitale, il regno umano era nel disordine e con un esercito quasi inesistente. Hammerheim stava per cadere sotto la furia dei clan di Rozmund quando i Primarchi della città di Edorel giunsero in soccorso e sgominarono il nemico con l’uso massiccio di magia, alla quale gli orchi erano impreparati e costringendoli, di fatto, a ritirarsi verso il fiume Faver. Ma la peggiore sconfitta avvenne per mano dei Cavalieri di Auron, un anziano e saggio Gerofante, a guida di combattenti preparati e letali che nel frattempo avevano riformato l’esercito hammin sotto la loro guida. La protezione della Vecchia Foresta, che rispondeva ai poteri naturali di Auron, portò un esercito di alberi semoventi e di cavalieri armati a riversarsi sugli orchi, fino alla morte di Rozmund sconfitto per mano del misterioso cavaliere Auron. Dopo quasi dieci anni gli orchi furono costretti a ritornare oltre i monti Orquinian, senza una guida, e a difesa di quei valichi montani gli umani edificarono strutture di rinforzo e di controllo. L’insediamento piú importante prese il nome di Amon, fortezza militare eretta attorno al valico piú ampio di collegamento tra le terre umane e le terre orchesche.</p>
+<p>Per approfondimenti si consiglia di leggere questo capitolo del Background degli Umani.</p>
+</section>
+<section id="avvento-di-kattlekah-zanna-e-del-clan-degli-ulah-kreen">
+<h3><span class="section-number">4.5.7.5. </span>Avvento di Kattlekah ‘Zanna’ e del clan degli Ulah Kreen<a class="headerlink" href="#avvento-di-kattlekah-zanna-e-del-clan-degli-ulah-kreen" title="Link to this heading">#</a></h3>
+<p>Dopo la sconfitta nelle terre umane, per diverso tempo i clan orcheschi furono senza guida e in continue guerre caotiche tra loro, finché ancora una volta l’orda fece emergere un forte e terribile guerriero, Kattlekah, conosciuto dagli umani col nome di Zanna, il terrore con una zanna sola. Egli si impose come guida della capitale e posizionò i suoi piú fedeli seguaci a capo dei vari clan che si stavano riformando.
+In quel medesimo periodo, intorno al 189, gli orchi divennero interesse di Surtur, il Re Nero primo sacerdote di Vashnaar, e furono raggiungi da cinque cavalieri oscuri, i Necrarchi, Luogotenenti Oscuri, su enormi destrieri dall’alito di fuoco, suoi emissari che proposero il patto di Surtur: egli li avrebbe fatti indottrinare ai rudimenti della magia oscura, donandogli enormi poteri da sfruttare contro i nemici, in cambio della loro assoluta obbedienza. Gli orchi per paura o per ambizione accettarono ed i piú indicati furono scelti da Zanna per divenire gli Ulah Kreen, clan di guerrieri dotati di grande forza e potere, istruiti dai Necrarchi di Surtur e primo manipolo armato di Zanna.</p>
+</section>
+<section id="grande-guerra-del-191">
+<h3><span class="section-number">4.5.7.6. </span>Grande guerra del 191<a class="headerlink" href="#grande-guerra-del-191" title="Link to this heading">#</a></h3>
+<p>Nella prima notte di autunno dell’A.I. 191 un imponente esercito di dimensioni mai viste da occhio umano scese dai monti orientali di Amon. Gli orchi si erano riuniti, cercavano la loro rivalsa dopo la sconfitta di qualche decennio prima, ma non si trattava piú degli orchi disordinati e caotici di un tempo: dinanzi le porte di Amon si schierò un esercito disciplinato, compatto, intelligentemente organizzato, grazie all’addestramento dei Necrarchi e all’opera di guida del clan degli Ulah Kreen.
+L’assedio ad Amon durò ventuno lune poi la città, l’estrema difesa dei Regni Umani, capitolò nel sangue. Amon fu distrutta completamente, l’esercito messo in rotta e massacrato, la popolazione sterminata con scientifica crudeltà, il Re amoniano Agravain morí nell’ultimo scontro. Negli stessi anni Surtur agiva nella zona a nord del continente umano, inviando i propri Necrarchi nella zona dell’Orus Maer dai quali monti si aprirono enormi caverne da cui cominciarono a fuoriuscire esseri mostruosi: giganti a due teste e ripugnanti creature capaci di rigenerarsi e letali in combattimento.
+Furono anni di grandi battaglie e di resistenza per gli umani e di possibilità per gli orchi di giungere fino ai fiumi Anduvian e Faver, fino a sfondare le difese hammin che nel frattempo erano scese in campo. Nel 194 gli orchi riuscirono a superare le difese del Regno, oltre l’Anduvian e il Faver, penetrando nella regione continentale di Hammerheim e dando luogo a scempi e devastazioni inaudite.</p>
+</section>
+<section id="ritorno-a-dunthragnir">
+<h3><span class="section-number">4.5.7.7. </span>Ritorno a Dunthragnir<a class="headerlink" href="#ritorno-a-dunthragnir" title="Link to this heading">#</a></h3>
+<p>Il quindicesimo giorno di autunno del 199 ebbe luogo quel grande sanguinoso scontro che passò alla storia come la “Battaglia dei Grandi Fiumi”. Gli orchi di Surtur, i Necrarchi e le loro infernali creature combatterono senza risparmio contro l’Esercito Reale hammin, supportato sul fronte nord dai maghi di Edorel e dai combattenti di Helacaraxe, mentre da sud e da ovest le squadre di arcieri elfici decimavano le retrovie del nemico. Molti perirono ma tutti combatterono in quei giorni che avrebbero decretato il futuro dell’intero continente umano. Il dispiego di tutte quelle forze alleate tra di esse, umani ed elfi, portò alla sconfitta dei Necrarchi, ad un’ingente decimazione dei clan orcheschi.
+Infine la ritirata di questi ultimi nella loro capitale Dunthragnir e da quel momento, per molto, degli orchi non si seppe piú nulla.</p>
+<p>Per approfondimenti si consiglia di leggere questo capitolo del Background degli Umani.</p>
+</section>
+</section>
+<section id="storia-contemporanea">
+<h2><span class="section-number">4.5.8. </span>STORIA CONTEMPORANEA<a class="headerlink" href="#storia-contemporanea" title="Link to this heading">#</a></h2>
+<p>I clan si riuniscono per una nuova offensiva
+Nei decenni che seguirono l’ultima guerra nei regni umani, gli orchi dovettero affrontare il periodo della Grande Ricostruzione. Kattlekah, sopravvissuto, riuscí ad imporsi nuovamente, dalla capitale, su tutti i clan con l’aiuto anche dei sui temibili figli: Jhakla, Dakmand e Kraaag. Insieme ripristinarono l’egemonia orchesca nelle terre dell’est e riorganizzarono, in un nuovo e fiorente sistema, tutto il territorio, con fortini ben attrezzati e difese solide.
+Sentendosi sicuro della sua orda, nel 273 Kattlekah chiese al minore dei suoi figli Kraaag di guidare un’offensiva contro Amon, non sapendo che nel frattempo la città era stata ricostruita piú forte di prima e le rovine della Vecchia Amon custodite. Kraaag assoldò uno dei piú potenti sciamani orcheschi, Katrumush, che conservava ancora le memorie dell’arte oscura insegnata dai Necrarchi agli orchi, chiedendogli di preparare un’offensiva ai danni di Amon. Katrumush dapprima fece invadere i territori amoniani da bestie demoniache, in forma di cane, con lo scopo di indebolirli, poi ne evocò la piú forte, conosciuta come Principe Cane tra gli umani, per l’offensiva finale. Le vicende portano però ad una sconfitta degli orchi e del Demone dalle fattezze di cane, dopo che le forze umane si erano alleate intorno all’esercito amoniano ed avevano respinto l’offensiva sciamanica su due fronti: Amon ed Eracles. Katrumush sopravvisse ma si ritirò in un profondo antro, portando con sé le sue conoscenze sul mondo demoniaco.</p>
+<section id="primi-scontri-con-i-grimlock">
+<h3><span class="section-number">4.5.8.1. </span>Primi scontri con i Grimlock<a class="headerlink" href="#primi-scontri-con-i-grimlock" title="Link to this heading">#</a></h3>
+<p>Nel 274 però il Grande Terremoto sconvolse il territorio degli orchi, impoverendolo di risorse e portando i clan a scontri per la supremazia, causando in Kattlekah il timore di un declino del potere orchesco sul suo territorio che si trovava ad affrontare l’invasione dei Grimlock i quali avevano varcato il fiume a sud-est Orquishar e conquistato le roccaforti meridionali. I clan di orchi del sud erano stati costretti a migrare al nord alimentando ancora di piú le lotte interne. Kattlekah capisce che servono nuove terre e nuove risorse, oltre ad un alleato per sconfiggere i Grimlock, per questo impone che ogni conflitto venga interrotto e passa a suo figlio maggiore Jhakla, il comando delle operazioni.</p>
+</section>
+<section id="patto-con-loknar-e-lo-scontro-con-kard">
+<h3><span class="section-number">4.5.8.2. </span>Patto con Loknar e lo scontro con Kard<a class="headerlink" href="#patto-con-loknar-e-lo-scontro-con-kard" title="Link to this heading">#</a></h3>
+<p>Alla ricerca di nuove terre Kattlekah sapeva che non poteva piú guardare nelle terre oltre la Guerriera, visto che il primo tentativo di sondarne le forze si era risolto in una sconfitta che aveva solo contribuito a fomentare i dissidi interni tra gli orchi, a nord c’era solo mare, a sud il deserto, mentre a sudovest ciò che resta di Loknar, la cui popolazione era stata spinta dai Grimlock a rifugiarsi su di un’isola.
+Gli orchi rivolsero quindi il loro interesse verso il sottosuolo, verso il popolo Djare approfittando di un cunicolo abbandonato, ma il viaggio li portò sulle sponde di un lago e consentí loro solo di depredare i nani di un po’ di risorse e di armi, prima che questi ultimi facessero saltare il passaggio. Nel frattempo, diminuiti i controlli nelle terre degli orchi, i Grimlock si impossessarono di un altro fortino e la battaglia che ne seguí portò questi ultimi ad arretrare, anche se la riconquista delle terre orchesche volgeva troppo lentamente.</p>
+<p>Un piano astuto di Kattlekah, a questo punto però, portò la popolazione di Loknar a muoversi, come alleati contro i Grimlock stessi, per cercare di riprendersi la zona del Picco degli Ululati che era stato occupato. La Battaglia dell’Orquishar vide gli umani costringere i Grimlock a ritirarsi e quindi cadere vittime delle imboscate degli orchi, fino a rifugiarsi nelle profondità della distrutta Eldor e perdendo il controllo dei fortini che avevano conquistato. Secondo i patti con Loknar, Jhakla restituí il Picco degli Ululati e gli orchi si ritirarono a nord del fiume.
+Riuniti i clan l’orda si abbatté su Kard, approfittando di alcuni cunicoli, ma la battaglia fu persa, e Jahkla fu catturato nel sottosuolo dove, alcuni giorni dopo, una spedizione della Legione di Amon riuscí ad accerchiarlo e ucciderlo con tutti i suoi orchi.</p>
+<p>Oggi le terre degli orchi sono guidate da Kattlekah(Zanna) e da suo figlio Kraaag, primo comandante delle forze della capitale Dunthragnir.</p>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./bestiario"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="LICANTROPI.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title"><span class="section-number">4.4. </span>Licantropi</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="Demoni.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title"><span class="section-number">4.6. </span>Demoni</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#caratteristiche-fisiche">4.5.1. Caratteristiche fisiche</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#organizzazione-sociale">4.5.2. Organizzazione sociale</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#religione">4.5.3. Religione</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#clan-orcheschi">4.5.4. CLAN ORCHESCHI</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clan-zanne-insanguinate">4.5.4.1. Clan Zanne Insanguinate</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clan-ulah-kreen">4.5.4.2. Clan Ulah Kreen</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clan-tranaght">4.5.4.3. Clan Tranaght</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clan-del-drago">4.5.4.4. Clan del Drago</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clan-della-fortezza-nascosta-in-orchesco-clan-lugfauth">4.5.4.5. Clan della Fortezza Nascosta (in orchesco Clan Lugfauth)</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#npg-orcheschi">4.5.5. NPG ORCHESCHI</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#zanna">4.5.5.1. Zanna</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#figli-di-zanna">4.5.5.2. Figli di Zanna</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#altri">4.5.5.3. Altri</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#storia-antica">4.5.6. STORIA ANTICA</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#origini-della-razza">4.5.6.1. Origini della razza</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#prima-comunita-orchesca">4.5.6.2. Prima comunità orchesca</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#il-culto-del-fuoco">4.5.6.3. Il culto del Fuoco</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#schiavitu-dei-minotauri">4.5.6.4. Schiavitú dei Minotauri</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ritorno-nellhildoriath">4.5.6.5. Ritorno nell’Hildoriath</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#fondazione-di-dunthragnir">4.5.6.6. Fondazione di Dunthragnir</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#storia-moderna">4.5.7. STORIA MODERNA</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#organizzazione-di-dunthragnir">4.5.7.1. Organizzazione di Dunthragnir</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#avvento-di-rozmund">4.5.7.2. Avvento di Rozmund</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#prima-battaglia-con-gli-umani">4.5.7.3. Prima battaglia con gli umani</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sconfitta-di-rozmund">4.5.7.4. Sconfitta di Rozmund</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#avvento-di-kattlekah-zanna-e-del-clan-degli-ulah-kreen">4.5.7.5. Avvento di Kattlekah ‘Zanna’ e del clan degli Ulah Kreen</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#grande-guerra-del-191">4.5.7.6. Grande guerra del 191</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ritorno-a-dunthragnir">4.5.7.7. Ritorno a Dunthragnir</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#storia-contemporanea">4.5.8. STORIA CONTEMPORANEA</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#primi-scontri-con-i-grimlock">4.5.8.1. Primi scontri con i Grimlock</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#patto-con-loknar-e-lo-scontro-con-kard">4.5.8.2. Patto con Loknar e lo scontro con Kard</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

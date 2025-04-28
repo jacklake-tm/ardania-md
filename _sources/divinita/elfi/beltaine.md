@@ -1,0 +1,29 @@
+# Beltaine
+
+> “Proteggete la Vita, la Creazione, e vostri fratelli, onorate il Passato, servendo così la futura Discendenza. Unitevi e Generate, rinnovando la Creazione.”
+
+## Nomi: 
+“Dea della Vita e delle foreste”, “Regina della Luce”, “la Grande Madre”.
+
+## Simboli sacri:
+Il colore di Beltaine è il Verde, il colore delle foreste. Portare un fiore o ghirlande di fiori tra i capelli è un classico omaggio in onore a Beltaine.
+
+## Descrizione generale:
+Incarna l’essere femminile perfetto. Sposa di Suldanas e Madre di Earlann e Morrigan, rappresenta la vita ed ogni nascita è da lei voluta. E’ la creatrice delle foreste, e la madre di tutti gli elfi. Si racconta che gli elfi siano nati dalle lacrime di gioia versate da Beltaine per la nascita dei figli e che essa si sia innamorata subito di queste creature perfette e rassomiglianti a lei e Suldanas. Per compiacerli creò le foreste utilizzando le foglie di Tulip. Essa è spesso definita Dea della Luce, creatrice del Sole e luce di Ardania.
+
+Viene descritta come una splendida elfa dall’aspetto maturo e materno, con capelli di puro oro colato che ricadono in una complessa acconciatura di trecce e nodi. I suoi occhi sono verdi, con intesi riflessi luminosi, o talvolta proprio sorgenti di luce splendente. Sulle sue guance le famose lacrime hanno lasciato il segno: dagli occhi fino al mento vi sono delle antiche rune luminose che paiono ricordare lo scorrere del gioioso pianto. Il suo corpo è sensuale e femminile, e i suoi seni hanno il tipico aspetto di quelli di una donna in procinto di allattare; i suoi abiti sono un intreccio di foglie che col variare delle stagioni cambiano colore. Nei rari casi in cui debba combattere, si narra che dal terreno faccia emergere una spada ricurva e luminosa, con l’elsa di splendido bianco legno intarsiato, da cui sembra che continuamente crescano foglie e germogli.
+
+Nell’antichità, si narra che Beltaine comparisse come una possente Cerva bianca con un manto bianco luminoso; ai giorni d’oggi è frequente la rappresentazione sotto forma di un maestoso cigno bianco dai riflessi cangianti, simbolismo ancora più comune nell’iconografia Sindar. Il volo di un cigno su un territorio significa grande fertilità e benessere in arrivo; leggenda vuole che la Dea compaia proprio sotto questa forma.
+
+## Dettami beltainiti:
+Beltaine rappresenta la vibrante e possente energia della fertilità e della creazione, ed è a volte considerata quasi la regina degli dei. I seguaci della Grande Madre predicano l’armonia, e ritengono l’amore come una manifestazione fondamentale del volere della loro Dea. L’amore, la perfezione, la luce, la bellezza e la fertilità sono elementi fondamentali per i Beltainiti, come anche, in alcune sottoculture, l’eleganza e la “regalità”. Anche il culto dei morti, gli spiriti e le anime erranti, rientrano tra le sue sfere. Altresì importanti sono gli aspetti della conservazione del tradizioni e del passato, che per gli elfi rappresenta un importante patrimonio, quasi inestimabile. Non meno rilevante, infine, è la venerazione e la protezione delle foreste e dei frutti della terra: la natura vegetale è la massima espressione della potenza vitale e della fertilità della Dea della Vita e delle Foreste.
+
+## Clero beltainita:
+L’importante clero Beltainita ha diverse peculiarità. Da un lato c’è la continua ricerca della bellezza e dell’armonia in ciò che Beltaine ha creato, e non a caso gli elfi e le elfe di Beltaine sono d’aspetto ricercato e ricercano la perfezione del corpo: le sacerdotesse accentuano la loro femminilità con abiti raffinati, adornandosi talvolta di foglie e fiori appena colti. Dall’altro lato viene predicata la difesa di ciò che la Dea ha creato, dunque se gli stessi elfi e le foreste ove vivono vengono messe in pericolo, la furia di questi sacerdoti è implacabile come quella di una fiera con chi minaccia i suoi cuccioli. I ruoli dei sacerdoti e delle sacerdotesse di questa Dea sono molteplici: guaritori, levatori e levatrici, guardiani delle foreste, responsabili delle coltivazioni; inoltre si prodigano per mantenere uniti i vari rami della collettività in unica grande famiglia sotto l’egida della Dea Madre.
+
+Si officiano due tipi di cerimonie di Beltaine: nelle feste pubbliche si compiono gioiose celebrazioni della vita, della natura e dell’amore, in tutte le loro forme, mentre in quelle segrete si dice che si cada in uno stato di trance (causato probabilmente dall’utilizzo di piante allucinogene) in cui si predice il futuro, ci si mette in contatto con gli spiriti dei defunti e con anime senza meta. Esistono infine anche alcuni misteriosi riti del fuoco celebrati in radure solitarie, per pochi adepti e lontano dagli occhi di estranei, ancestrali riti legati alla fertilità.
+
+Ad Ondolinde si trova la più grande congregazione del clero di Beltaine: l’Ordine delle Madri; coloro sono custodi degli antichissimi e spesso segreti rituali della Dea; loro è la tradizionale Cerimonia della Vita che si tiene ogni sei mesi.
+
+## Venerazione tra le stirpi elfiche:
+Beltaine è molto diffusa tra gli elfi; la stirpe maggiormente devota a Beltaine è quella quenya, la quale la venera come divinità primaria per la forza generatrice, l’armonia, bellezza, la purezza luminosa ed il suo legame con le radici elfiche. Tra i Sindar è la seconda divinità più venerata, soprattutto per il suo legame con le foreste e per la regina Arabella che Le dedicò una festa, e non di meno per la sua influenza sugli spiriti naturali. Tra i Teleri è meno diffusa ma è molto rispettata anche per il legame con le antiche tradizioni quenya che il suo clero conserva, e insieme ad Earlann le sono dedicati rituali per le anime dei dispersi in mare.

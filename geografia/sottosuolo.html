@@ -1,0 +1,656 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>1.5. Sottosuolo Oscuro &#8212; Il Mondo di Ardania</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'geografia/sottosuolo';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="1.6. Ankor Drek" href="ankor_drek.html" />
+    <link rel="prev" title="1.4. Terre Selvagge" href="terre_selvagge.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../README.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/banner.jpg" class="logo__image only-light" alt="Il Mondo di Ardania - Home"/>
+    <script>document.write(`<img src="../_static/banner.jpg" class="logo__image only-dark" alt="Il Mondo di Ardania - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../README.html">
+                    Il Mondo di Ardania
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../CHAPTER%3Ageografia.html">1. La Geografia di Ardania</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="continente_umano.html">1.1. Continente Umano</a></li>
+<li class="toctree-l2"><a class="reference internal" href="continente_elfico.html">1.2. Reame Elfico (Doriath)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="terre_del_nord.html">1.3. Terre del Nord</a></li>
+<li class="toctree-l2"><a class="reference internal" href="terre_selvagge.html">1.4. Terre Selvagge</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">1.5. Sottosuolo Oscuro</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ankor_drek.html">1.6. Ankor Drek</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generalita.html">1.7. Generalità su Ardania</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mappa.html">1.8. La Mappa di Ardania</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../CHAPTER%3Astoria-e-razze.html">2. Storia delle Razze di Ardania</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../storia/umani.html">2.1. Storia degli Uomini.</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../storia/umani/descrizione_generale.html">2.1.1. Descrizione generale</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/umani/storia_reame_umano.html">2.1.2. Storia del Reame Umano</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/umani/nordici.html">2.1.3. I Nordici</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/umani/tremecciani.html">2.1.4. I Tremecciani</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/umani/qwaylar.html">2.1.5. I Qwaylar</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/umani/popoli_minori.html">2.1.6. Popoli minori</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../storia/elfi.html">2.2. Storia degli Elfi</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../storia/elfi/descrizione_generale.html">2.2.1. Descrizione generale</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/elfi/storia_elfica.html">2.2.2. Storia Elfica</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/elfi/approfondimenti.html">2.2.3. Approfondimenti</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/elfi/magia.html">2.2.4. La Magia per gli Elfi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/elfi/quenya.html">2.2.5. I Quenya</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/elfi/sindar.html">2.2.6. I Sindar</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/elfi/teleri.html">2.2.7. I Teleri</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../storia/mezzelfi.html">2.3. Storia dei Mezzelfi</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../storia/mezzelfi/descrizione_generale.html">2.3.1. Descrizione Generale</a></li>
+
+<li class="toctree-l3"><a class="reference internal" href="../storia/mezzelfi/approfondimenti.html">2.3.3. Approfondimenti</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/mezzelfi/leggende.html">2.3.4. Leggende, dicerie, storie e superstizioni</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../storia/nani.html">2.4. Storia dei Nani</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../storia/nani/descrizione_generale.html">2.4.1. Descrizione generale</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/nani/storia_nanica.html">2.4.2. Storia nanica</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/nani/approfondimenti.html">2.4.3. Approfondimenti</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/nani/magia.html">2.4.4. La Magia per i Nani</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2"><a class="reference internal" href="../storia/generalita.html">2.5. Generalità sull’idea di Razza nel gioco.</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../storia/misteri.html">2.6. I Misteri di Ardania di Gartax di Picco dell’Aquila</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../storia/misteri/cosmologia.html">2.6.2. La Cosmologia di Ardania</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/misteri/geografia.html">2.6.3. La Geografia Ardanense</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/misteri/calendario.html">2.6.4. Il Calendario</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/misteri/molti_luoghi.html">2.6.5. I Molti Luoghi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/misteri/punti_salienti_storia_antica.html">2.6.6. Punti Salienti della Storia antica</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../storia/recent_history.html">2.7. Manoscritto - Storia degli Ultimi anni</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/266.html">2.7.1. Anno 266</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/267.html">2.7.2. Anno 267</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/cometa.html">2.7.3. Resoconto della Grande Cometa del 267</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/268.html">2.7.4. Anno 268</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/269.html">2.7.5. Anno 269</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/270.html">2.7.6. Anno 270</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/271.html">2.7.7. Anno 271</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/272.html">2.7.8. Anno 272</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/273.html">2.7.9. Anno 273</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/274.html">2.7.10. Anno 274</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/275.html">2.7.11. Anno 275</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/276.html">2.7.12. Anno 276</a></li>
+
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/277.html">2.7.14. Anno 277</a></li>
+
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/278.html">2.7.16. Anno 278</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/279.html">2.7.17. Anno 279</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/280.html">2.7.18. Anno 280</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/281.html">2.7.19. Anno 281</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/282.html">2.7.20. Anno 282</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../storia/ultimi_anni/283.html">2.7.21. Anno 283</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../CHAPTER%3Adivinita.html">3. Divinità in Ardania</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../divinita/madre.html">3.1. Il Culto della Madre</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../divinita/umani.html">3.2. Divinità Umane</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/cosmogonia.html">3.2.1. Cosmogonia</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/cosmogonia_nordica.html">3.2.2. Cosmogonia Nordica</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/cosmogonia_tremec.html">3.2.3. Cosmogonia tremecciana</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/crom.html">3.2.4. Crom</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/vashnaar.html">3.2.5. Vashnaar</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/althea.html">3.2.6. Althea</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/aengus.html">3.2.7. Aengus</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/danu.html">3.2.8. Danu</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/oghmar.html">3.2.9. Oghmar</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/awen.html">3.2.10. Awen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/yggr.html">3.2.11. Yggr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/hejldam.html">3.2.12. Hejldam</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/akkron.html">3.2.13. Akkron</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/lostris.html">3.2.14. Lostris</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/mawu.html">3.2.15. Mawu</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/umani/altri_elementi.html">3.2.16. Altri elementi del mito umano</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../divinita/elfi.html">3.3. Divinità Elfiche</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/elfi/cosmogonia.html">3.3.1. Cosmogonia</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/elfi/suldanas.html">3.3.2. Suldanas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/elfi/beltaine.html">3.3.3. Beltaine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/elfi/earlann.html">3.3.4. Earlann</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/elfi/morrigan.html">3.3.5. Morrigan</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/elfi/luugh.html">3.3.6. Luugh</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/elfi/kelthra.html">3.3.7. Kelthra</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/elfi/altre_divinita.html">3.3.8. Altre creature divine</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../divinita/nani.html">3.4. Divinità Naniche</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/nani/korg.html">3.4.1. Korg</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/nani/berzale.html">3.4.2. Berzale</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/nani/dera.html">3.4.3. Dera</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../divinita/nani/culto_morti.html">3.4.4. Altri cenni e culto dei morti</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../CHAPTER%3Abestiario.html">4. Bestiario (mostri, demoni, esseri e creature) di Ardania.</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../bestiario/Bestie_Esotiche.html">4.1. Bestie Esotiche</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bestiario/Elementali.html">4.2. Elementali</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bestiario/Gazer.html">4.3. Gazer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bestiario/LICANTROPI.html">4.4. Licantropi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bestiario/ORCHI.html">4.5. Orchi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bestiario/Demoni.html">4.6. Demoni</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bestiario/Juka.html">4.7. Juka</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bestiario/GOBLIN.html">4.8. Goblin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bestiario/Giganti.html">4.9. Giganti</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bestiario/NonMorti.html">4.10. NonMorti</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bestiario/TERATHAN.html">4.11. Terathan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bestiario/Draghi.html">4.12. Draghi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bestiario/Galli_da_Combattimento.html">4.13. Galli da Combattimento</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bestiario/OPHIDIANI.html">4.14. Ophidiani</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bestiario/VILDERON.html">4.15. Vilderon</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../CHAPTER%3Adungeons.html">5. I Principali Doungeons in Ardania.</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../dungeons/arpie.html">5.1. Arpie</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dungeons/briganti_tasso.html">5.2. Briganti del Tasso</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dungeons/fortezza_elenrond.html">5.3. Fortezza di Elenrond</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dungeons/goblin_arcipelago.html">5.4. Goblin dell’Arcipelago</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dungeons/illithid.html">5.5. Illithid</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dungeons/jahr_sauri.html">5.6. Jahr Sauri</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dungeons/juka.html">5.7. Juka</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dungeons/kur_nughul.html">5.8. Kur Nughul</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dungeons/ofidiani_doriath.html">5.9. Ofidiani Doriath</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dungeons/surtur.html">5.10. Surtur</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dungeons/trogloditi.html">5.11. Caverna Trogloditi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dungeons/uomini_topo.html">5.12. Tana Uomini Topo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dungeons/valle_spiritelli.html">5.13. Valle degli Spiritelli</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dungeons/zar_vagor.html">5.14. Zarr Vagor</a></li>
+</ul>
+</details></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/geografia/sottosuolo.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Sottosuolo Oscuro</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#descrizione-generale">1.5.1. Descrizione generale</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#grom-bad-nuran-kar">1.5.2. Grom Bad (Nuran Kar)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#kard-dorgast">1.5.3. Kard Dorgast</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cunicoli-e-segreti-del-sottosuolo-oscuro">1.5.4. Cunicoli e segreti del Sottosuolo Oscuro</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#i-luoghi-del-sottosuolo">1.5.4.1. I luoghi del sottosuolo</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="sottosuolo-oscuro">
+<h1><span class="section-number">1.5. </span>Sottosuolo Oscuro<a class="headerlink" href="#sottosuolo-oscuro" title="Link to this heading">#</a></h1>
+<section id="descrizione-generale">
+<h2><span class="section-number">1.5.1. </span>Descrizione generale<a class="headerlink" href="#descrizione-generale" title="Link to this heading">#</a></h2>
+<p>Il Sottosuolo Oscuro è formato da lunghissimi tunnel, intricati incroci, e in generale da un dedalo di antiche e oscure gallerie. Pochissime persone, anche tra i nani, possono dire di conoscerne tutti i segreti. E non sono solo i nani ad abitarlo, o a sfruttarlo per i propri bisogni: orchi, Grimlock, esseri tentacolari giunti da chissà dove, creature credute dimenticate… Tante insidie aspettano i viaggiatori incauti, ma veloci collegamenti (voci parlano anche di percorsi che portano ad Ankor Drek, tramite tane di pericolose creature, ma restano voci…), ricchezze e tanta avventura sono alla portata degli esploratori più arditi.</p>
+</section>
+<section id="grom-bad-nuran-kar">
+<h2><span class="section-number">1.5.2. </span>Grom Bad (Nuran Kar)<a class="headerlink" href="#grom-bad-nuran-kar" title="Link to this heading">#</a></h2>
+<p>L’abisso celato è l’attuale rifugio del Fiero Popolo, dopo la fuga ordinata e guidata dallo Djare Thorreg Gridopossente nella notte della quattordicesimo giorno di Postapritore (Cot per i nani), nel 279 C.I. (4244mo Ciclo per i nani). Il rifugio è stato preparato da Durgin Vistacuta, in accordo con lo Djare della montagna Thorreg Gridopossente, per accogliere gli altri cugini durante l’assedio di Kard Dorgast e Girt Arn, all’epoca ancora sotto il controllo di strane e sconosciute creature magiche. Il piccolo antro ospita le dimore degli djaredin, il tempio della Triade, nel quale è stata portata in salvo la sacra fiamma di Korg ed il Dammaz Kron, nonché i saperi della biblioteca di Berzale ed i misteri di Dera, ed una piccola sala per le riunioni dell’armata.</p>
+</section>
+<section id="kard-dorgast">
+<h2><span class="section-number">1.5.3. </span>Kard Dorgast<a class="headerlink" href="#kard-dorgast" title="Link to this heading">#</a></h2>
+<p>Kard Dorgast la città recondita, la meraviglia che pochi uomini hanno avuto l’onore di contemplare.</p>
+<p>Scavata e scolpita nella dura roccia del sottosuolo d’Ardania, nel cuore del regno sotterraneo si erge la capitale ancestrale del fiero popolo djaredin: Kard Dorgast. Nelle sue enormi sale illuminate da miriadi di torce e da enormi cristalli lucenti, innumerevoli nani hanno lavorato giorno e notte per più di 4000 cicli alla ricerca delle ricchezze custodite dalla terra. Enormi colonne costruite con pietre squisitamente intagliate sorreggono le volte di roccia che fanno da tetto alla città, mentre maestosi edifici risplendono al chiarore dei cristalli. Le costruzioni djaredin sono dei capolavori di architettura e ingegneria: dall’aspetto spartano e privi dei fronzoli decorativi elfici, sono di gran lunga più robusti delle esili torri degli orecchie-a-punta o dei grossolani bastioni degli umani. Dal soffitto delle grotte verso l’esterno della montagna, un intricato sistema di canali si dipana nella roccia in modo da fornire alla città la quantità d’aria sufficiente alla sopravvivenza dei suoi abitanti e nel contempo fa da sbocco per il fumo e i vapori prodotti dal lavoro perpetuo delle numerose fucine.
+Nell’estremo sud dell’antro ancestrale della città si staglia la Grande Porta, una costruzione maestosa che dal cunicolo proveniente dal cuore conduce all’ingresso di Kard Dorgast. Da essa una grande strada conduce al vecchio ponte distrutto durante il 4245° ciclo (280 C.I.) dagli orchi (noti come musidiporco tra i nani), interrompendo il collegamento che dalla grande porta portava all’ingresso della imponente cinta muraria. Essa si staglia lungo l’asse est-ovest, estendendosi dalla grande miniera, ad est, fino all’arena, all’estremo opposto, e proteggeva il fulcro commerciale ed operativo della città, contenendo nelle sue ampie intercapedini le stanze adibite a sede dell’Armata. In seguito all’invasione degli Illithid (Testedipolpo per i coloriti Djaredin) ed alle battaglie susseguitesi, questi ultimi si sono barricati lungo tutto il perimetro delle mura, chiudendo gli accessi ad esse e, di conseguenza, il passaggio strategico che permetteva agli Djaredin di attraversare longitudinalmente la città. Lungo le mura, appena fuori la città, si estendeva la zona residenziale. A ovest alcuni passaggi permettevano l’accesso al porto, imponente costruzione scavata nella roccia dell’isola al centro del Throvarr che ospitava le robuste chiatte naniche, ed alla sala degli antenati, dove venivano officiate le cerimonie in loro onore. Ad est la strada conduce alla solfatara, da cui esalano fumi e puzze poco gradevoli, ora infestata da esseri di natura lavica e magmatica ed al grande lago sotterraneo al centro della foresta dei titani. Da qui si può scendere fino alla Grotta dei Cristalli, dove migliaia di cristalli risplendono di una luce intensa e danno un aspetto sovrannaturale all’ambiente. In pochi potrebbero rimanere indifferenti di fronte ad una tale meraviglia della natura. Entrando in città dall’ingresso principale essa risulta divisa in due. La parte est è presa d’assedio dai musidiporco, che, sfruttando una serie di cunicoli scavati sbrigativamente durante l’esodo del popolo Djaredin, continuano ad occupare la gemma sotto il giogo dei Testedipolpo. La parte ovest invece, dopo lunghe ed estenuanti battaglie, è stata resa sicura dalle barricate e dal pattugliamento costante dei tenaci guerrieri meccanici, immuni al controllo mentale degli invasori. Qui troviamo la miniera piccola che sovrasta il tempio di Berzale e la biblioteca, il tempio di Korg, e, procedendo verso ovest, il maestoso palazzo dello Djare, con le sue grandi sale sorrette da imponenti pilastri. La porta ovest, primo baluardo di difesa della zona riconquistata, conduce alla zona dei campi, dai quali il popolo Djaredin trae sostentamento. Qui sorge la grande stazione di Kard Dorgast. Per ridurre i tempi di spostamento da Nuran Kar a Kard è stata ultimata la costruzione del più lungo tratto ferroviario del sottosuolo, per poter viaggiare a gran velocità a bordo dei carrelli. I nuovi cunicoli scavati dalle fredde terre del nord percorrono il sottosuolo con pendenze quasi verticali. I sistemi di argani e catene, alimentati dalla perpetua combustione di zolfo e legname fossile di fungo permettono una gran forza motrice anche per la risalita verso Nuran Kar. Proseguendo verso ovest dalla stazione si accede alla parte nord della foresta dei titani. Da qui una piccola chiatta conduce al tempio di Dera, costruzione ben più modesta del grande tempio di Korg, luogo dei segreti e dei misteri.</p>
+</section>
+<section id="cunicoli-e-segreti-del-sottosuolo-oscuro">
+<h2><span class="section-number">1.5.4. </span>Cunicoli e segreti del Sottosuolo Oscuro<a class="headerlink" href="#cunicoli-e-segreti-del-sottosuolo-oscuro" title="Link to this heading">#</a></h2>
+<p>Il sottosuolo nanico non è solamente Kard Dorgast. Dalla grande capitale del regno di Djare si dirama una lunga ed intricata rete di cunicoli, antica quanto lo stesso popolo Djaredin, riemersa in seguito ad un grande terremoto che ha sconvolto l’assetto del sottosuolo tutto. La grande porta di Kard Dorgast conduce allo snodo principale e fulcro dell’intero sistema dei cunicoli: il cuore. Unico antro rimasto intatto a seguito delle devastazioni del sisma, è il principale crocevia della rete. Da esso si diramano i cunicoli che conducono un po’ in ogni parte d’Ardania. Un cunicolo ripido conduce a Varr Nadarunn, primo avamposto nanico in superficie. Un’altra via tortuosa si protende verso est snodandosi in vari punti e collegando il cuore con gli sbocchi per Ungor Dum (il labirinto di Surtur), il Naggrund (le terre degli orchi) dove sorge l’avamposto nanico del Crag Angaz, e Garaz Ankor (le terre selvagge). Un altro cunicolo si snoda verso nord, preceduto da una porta massiccia: è il cunicolo che conduce al continente umano. Quest’ultimo non è solamente scavato nella roccia, ma finemente lavorato e rinforzato da mura di massicci blocchi di pietra. Da qua incontriamo, in ordine, il bivio che conduce allo Snorby Grimaz e a Grungron Drakk, la grande polveriera (sita in profondità, lontano dalle zone abitate, per evitare i rischi), Girt Arn, l’uscita per il continente umano con l’avamposto di Crag Grigor, ed il freddo cunicolo innevato che sbuca nelle terre del nord, poco a ovest di Nuran Kar.</p>
+<section id="i-luoghi-del-sottosuolo">
+<h3><span class="section-number">1.5.4.1. </span>I luoghi del sottosuolo<a class="headerlink" href="#i-luoghi-del-sottosuolo" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Girt Arn
+La Grotta dell’Abbondanza è l’insediamento situato in una grotta dal clima molto caldo e umido, con la volta ricoperta di cristalli che forniscono illuminazione. Ciò la rende quasi unica, perché in questo villaggio riescono a crescere diverse varietà di muschi, muffe e funghi commestibili e coltivabili. Gli abitanti vivono coltivando le risorse di cui sopra, inviandone una gran parte a Kard in cambio di altri beni necessari alla sopravvivenza.</p></li>
+<li><p>Grungron Drakk
+La Fucina del Drago si trova all’incirca sotto l’isola dei draghi, da cui prende il nome. Si tratta di un villaggio contenente una piccola miniera ricca di minerali con una grande forgia nel mezzo della piazza. Gli abitanti sono minatori, che vendono a Kard il metallo estratto comprandovi beni di prima necessità.</p></li>
+<li><p>Nardarnish goloz
+La città della sapienza. In questo luogo nei tempi passati c’era una grossa fabbrica automatizzata che produceva macchinari e congegni ingegneristici. La fabbrica era auto alimentata in maniera perpetua dal calore della lava e dai cristalli. Per qualche ignota ragione i meccanismi impazzirono, iniziando a uccidere i nani che vi abitavano, ma essendo la fabbrica ancora in funzione essi continuano a popolare l’avamposto abbandonato e ne vengono sempre prodotti di nuovi. I nani considerano questo posto come “maledetto”, ritengono che i cugini che vi hanno vissuto e che hanno costruito la fabbrica abbiano compiuto una qualche offesa a Berzale, e che la sciagura accorsa al luogo non sia altro che l’ira ed il monito del Dio agli Djaredin.</p></li>
+<li><p>Varr Nadarrunn
+Varr Nadarunn è l’isola settentrionale del Throvarr, le Isole Dimenticate, quelle che in superficie chiamano Arcipelago Perduto. I piu’ ritengono che sia stata questa l’isola sulla quale l’ignobile stirpe deporto’ il nostro popolo al termine dell’era dei Padri maestri, poco dopo la battaglia sanguinosa. Fu nell’anno delle stelle, anno di Thorreg GridoPossente, 4233esimo ciclo solare dell’era del ritorno che comincia la storia di questo avamposto militare, la 28ma rotazione di Jnust ha inizio la colonizzazione dell’isola: Gurth Firehammer, Bogardan, Torak Bergrand e Rabindranath Tagore danno inizio alla costruzione dell’avamposto. La costruzione si termina l’anno successivo. Nel 4237 anno del Naggrund, su progetto di Dalain Arthendaim, l’avamposto viene ampliato e consolidate le difese.</p></li>
+<li><p>Altri luoghi
+Si narra che il sottosuolo oscuro nasconda collegamenti tra tutte le terre note di Ardania, e anche di più. Si narra che tanti antri infestati da esseri maligni siano collegati tramite passaggi nelle sue gallerie. Si narrano tante cose, chi avrà il coraggio di scoprire la verità?</p></li>
+</ul>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./geografia"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="terre_selvagge.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title"><span class="section-number">1.4. </span>Terre Selvagge</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="ankor_drek.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title"><span class="section-number">1.6. </span>Ankor Drek</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#descrizione-generale">1.5.1. Descrizione generale</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#grom-bad-nuran-kar">1.5.2. Grom Bad (Nuran Kar)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#kard-dorgast">1.5.3. Kard Dorgast</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cunicoli-e-segreti-del-sottosuolo-oscuro">1.5.4. Cunicoli e segreti del Sottosuolo Oscuro</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#i-luoghi-del-sottosuolo">1.5.4.1. I luoghi del sottosuolo</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

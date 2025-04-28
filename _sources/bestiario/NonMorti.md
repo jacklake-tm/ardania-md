@@ -1,0 +1,45 @@
+# NonMorti
+
+
+Tra i mostri di Ardania un posto d’onore spetta sicuramente ai non morti,creature mostruose e terribili. Sono tra le creature più diffuse in Ardania ed alcuni di loro sono anche estremamente pericolosi per interi eserciti. Uomini che sognavano l’immortalità, creature generate con potentissimi artifizi magici o semplicemente anime che non trovano pace,ecco le schiere dei non morti,i figli di Vashnaar. Sono innumerevoli, e ora in questo scritto saranno esaminati e descritti i più comuni,che elencherò in quattro pergamene diverse.
+
+
+## Pergamena I – Scheletri
+
+
+Con il termine “scheletri” si è soliti indicare tutti quei non morti il cui corpo è formato unicamente da ossa, privo di qualunque organo o muscolo. Questi ultimi sono molto comuni in Ardania e quasi sempre sono il risultato di evocazioni di negromanti o lich. In base allo scheletro usato per il rituale di evocazione si ottiene una creatura di potere diverso. Nello specifico:
+
+### Scheletro “comune”
+La parola comune sta a significare che lo scheletro usato per la creazione di questo non morto è uno scheletro di una persona qualunque,come può essere un mercante un contadino o un notaio. IL risultato sarà uno scheletro di basso potere e scarsa resistenza fisica, che può essere ucciso da qualunque uomo che abbia un minimo di esperienza nel combattimento. Questo tipo di scheletri è usato soprattutto per far numero e creare confusione all’interno della battaglia.
+
+### Scheletro di un combattente
+Nel corso dei secoli migliaia sono stati i guerrieri e i valenti combattenti che hanno cercato di sconfiggere le forze del male avventurandosi all’interno delle loro dimore,come la torre del male.Molti di essi non sono più tornati da quei cupi luoghi e il loro corpo è stato usato per terribili riti che per la loro brutalità e l’alone di peccato che li circonda non possono essere scritti. Con questi riti i negromanti e i lich più potenti hanno ottenuto una schiera di non morti posseduti al loro servizio. Le capacità che il combattente aveva in vita vengono date anche al posseduto non morto tramite arcani riti, i quali consentono ai signori negromanti di dotare i loro servi di grandi abilità di combattimento che comunque,vista la mancanza di muscoli e di organi, non sarà mai uguale a quella di un combattente umano . Le tipologie di scheletri combattenti sono principalmente due:
+
+### Scheletro mago
+Questi scheletri derivano da potenti maghi ed hanno diversi artifizi magici che possono risultare molto pericolosi. I signori negromanti donano loro di un intelligenza riflessa che consente ai magi di lanciare una grande quantità di incantesimi in poco tempo, cioè i magi traggono il potere di lanciare magie dallo stesso negromante che li possiede e li ha evocati. Le loro più che magie possono essere considerate maledizioni, infatti il vero pericolo che costituiscono questi scheletri è dato dalla capacità di atrofizzare i muscoli e rallentare i movimenti del nemico,cosa che può essere letale in battaglia.
+
+### Cavaliere scheletro
+Nobili paladini e valenti guerrieri trasformati da oscuri riti nelle creature che combattevano,questi sono i cavalieri scheletri. Molto spesso hanno indosso una corazza e uno scudo, la loro arma preferita è la scimitarra. Possono essere davvero pericolosi se attaccano in gruppo. Queste creature infatti singolarmente non sono molto forti ma in gran numero anche i loro movimenti scoordinati e privi di tecnica li rendono micidiali. Per questo molte volte nelle grandi battaglie contro i figli di Vashnaar questi scheletri sono in prima fila,vengono usati come onda d’urto dai loro padroni non morti.
+La leggenda e le credenze popolari vogliono che i lich superiori o altri potentissimi negromanti siano in grado di resuscitare dalle ossa di animali mostri di immane potenza.La leggenda più suggestiva di queste è senza dubbio quella che riguarda i mitici dracolich. I dracolich secondo la tradizione popolare sono creature non morte generate da draghi malvagi. A quanto sembra la formula per generare tali creature e segretissima e richiede un notevole sforzo fisico. Questa formula, che a quanto dice la leggenda richiede sacrifici di infanti e creature della foresta, dovrebbe essere in possesso di leggendari negromanti che vivono in luoghi sperduti nei meandri della terra.
+Questo dracolich sarebbe un drago formato di ossa, dotato sia dei poteri del drago da cui è stato generato che di quelli del negromante che ha usato la formula. Non si sa quanto sia vera questa storia ma una cosa è certa…..se questa creatura esiste neanche l’esercito dei migliori uomini di Ardania può fermarla.
+
+## Pergamena II – Cadaveri nonmorto
+
+Questi mostri sono dei corpi in decomposizione che infestano i luoghi dove c’è il tanfo della morte o in luoghi oscuri in cui alberga il potere del male. Sulle loro origini non si hanno molte certezze,l’unica cosa che si sa per certi è che molte volte anche questi come gli scheletri sono evocazioni di negromanti e lich oppure loro schiavi. I più comuni cadaveri deambulanti sono le mummie e gli zombie:
+
+### Zombie
+Non si sa molto sull’origine di queste creature, ma le ipotesi più accreditate sono due. Secondo molti gli zombie sono cadaveri riesumati dalle loro tombe ed animati con la magia nera,altri ritengono che lo zombie nasca dal corpo di un uomo o una donna che in vita desiderava cibarsi di carne umana.
+Il loro aspetto fisico è raccapricciante, cadaveri decomposti pieni di vermi, che si scagliano su ogni cosa animata che vedono e di intelligenza nulla. Proprio a causa della loro intelligenza non è difficile impartire ordine agli zombi, che per questo motivo vengono usati come cani da guardia dai loro padroni.
+
+### Mummie
+Le mummie sono cadaveri di persone che desideravano la vita eterna e speravano di ottenerla mummificando il proprio corpo. Questo però fece arrabbiare Vashnaar che considerò questo un atto di sfida verso il suo dominio e il suo potere. Per questo lanciò su tutti i sarcofagi e le bare che contenevano un cadavere mummificato una maledizione: se il sarcofago fosse stato aperto la mummia sarebbe tornata in vita,ma la sua vita non sarebbe stata più come quella di prima, infatti privi di organi,che venivano tolti al momento della mummificazione, la mummia non avrebbe mai riavuto quelle facoltà che aveva in vita, a meno che non gli fosse stato ridato il cuore. Ora a causa di questa maledizione e a causa dei numerosi tombaroli ed esploratori che amano saccheggiare luoghi sacri molti sarcofagi sono stati aperti e molte mummie sono tornate in vita sotto la forma di un cadavere in decomposizione che si trascina avvolto di bende.
+
+## Pergamena III – Incorporei
+I non morti incorporei sono formati di puro spirito e sono privi di materia organica. Lo spirito di cui sono composti i non morti incorporei non è altro che la loro anima mischiata con altri elementi del regno dei morti che a noi non è dato conoscere. Gli incorporei sono molto pericolosi soprattutto per la loro grande capacità magica e il loro veleno. L’incorporeo più diffuso nelle terre di Ardania è sicuramente lo **spettro**. Esso non è dotato di grande resistenza fisica, ma è dotato di un veleno potentissimo capace di uccidere il più forte dei guerrieri in pochissimo tempo. Vive insieme ad altri non morti e tra di essi è uno dei più temuti per le sue maledizioni ed il suo potentissimo veleno. I lich più potenti riescono anche ad evocarlo.
+
+## Pergamena IV – Non morti superiori
+
+Finora si è scritto dei non morti più comuni, ma ora in quest’ultima pergamena si parlerà di quei non morti che hanno ricevuto il loro potere direttamente da Vashnaar, e che racchiudano in essi la vera essenza del male. I più forti ed i più pericolosi sono senza dubbio i lich.
+
+I lich prima della mutazione sono persone ambiziose ed egoiste. La loro ambizione però li porta ad un destino ben peggiore rispetto alla morte stessa. Vashnaar riconosce in loro il male e li trasforma in lich, dotandoli di grandi poteri magici, maledizioni ed evocazioni. Dal momento della mutazione in poi saranno schiavi del signore del male ed ubbidiranno alla sua volontà.
+I lich ancora più potenti dei lich mutati da Vashnaar sono i lich superiori, negromanti o conoscitori della magia nera che vogliono conquistare l’immortalità e seguire Vashnaar. Per questi suoi adepti il signore del male usa un trattamento particolare, ovvero dona loro poteri magici inimmaginabili ed assegna loro il compito di diffondere il culto di Vashnaar in tutto il mondo civilizzato, distruggendo e sottomettendo qualunque popolazione osasse ribellarsi. Un lich superiore da solo è letale per ogni gruppo di avventurieri. Un lich maggiore può un nemico con tanta veemenza e tanto potere oscuro da rendere i suoi muscoli inutilizzabili e fargli avere l’intelligenza di un’ameba. Ovviamente un lich maggiore è dotato di evocazioni molto più potenti di quelle dei normali lich. Si parla addirittura di lich superiori capaci di evocare intere orde di cavalieri scheletro e di vortici mortali. Questo tipo di lich comunque è presente in quantitativo molto minore rispetto ad i lich normali, e questo è un bene, credetemi.
