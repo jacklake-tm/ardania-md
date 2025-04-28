@@ -46,3 +46,5 @@ Il risultato sarà disponbile nel folder `/_build/html/`.
 jupyter-book build . --builder pdflatex
 ```
 Il risultato sarà disponbile nel folder `/_build/latex/ardania.pdf`.
+
+Il file PDF precompliato è disponibile online: https://jacklake-tm.github.io/ardania-md/output.ardania.pdf 
